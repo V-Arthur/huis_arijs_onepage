@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<product>
+	<toonzaal>
+		<item>
+			<id>0</id>
+			<beschrijving>Asjuwelen</beschrijving>
+			<prijs>65</prijs>
+			<afbeelding>source/afbeeldingen/uitvaartwinkel/toonzaal/asjuwelen.jpg</afbeelding>
+		</item>
+		<item>
+			<id>1</id>
+			<beschrijving>Beertje en bloemen</beschrijving>
+			<prijs>70</prijs>
+			<afbeelding>source/afbeeldingen/uitvaartwinkel/toonzaal/beertje-en-bloemen.jpg</afbeelding>
+		</item>
+		<item>
+			<id>2</id>
+			<beschrijving>Fotoblokken</beschrijving>
+			<prijs>66</prijs>
+			<afbeelding>source/afbeeldingen/uitvaartwinkel/toonzaal/fotoblokken.jpg</afbeelding>
+		</item>
+		<item>
+			<id>3</id>
+			<beschrijving>Fotokaders</beschrijving>
+			<prijs>72</prijs>
+			<afbeelding>source/afbeeldingen/uitvaartwinkel/toonzaal/fotokaders.jpg</afbeelding>
+		</item>
+		<item>
+			<id>4</id>
+			<beschrijving>Gedenkstenen</beschrijving>
+			<prijs>75</prijs>
+			<afbeelding>source/afbeeldingen/uitvaartwinkel/toonzaal/gedenkstenen.jpg</afbeelding>
+		</item>
+		<item>
+			<id>5</id>
+			<beschrijving>Kisten</beschrijving>
+			<prijs>68</prijs>
+			<afbeelding>source/afbeeldingen/uitvaartwinkel/toonzaal/kisten.jpg</afbeelding>
+		</item>
+		<item>
+			<id>6</id>
+			<beschrijving>Kisten toonzaal</beschrijving>
+			<prijs>75</prijs>
+			<afbeelding>source/afbeeldingen/uitvaartwinkel/toonzaal/kisten-toonzaal.jpg</afbeelding>
+		</item>
+		<item>
+			<id>7</id>
+			<beschrijving>Kruisjes</beschrijving>
+			<prijs>76</prijs>
+			<afbeelding>source/afbeeldingen/uitvaartwinkel/toonzaal/kruisjes.jpg</afbeelding>
+		</item>
+		<item>
+			<id>8</id>
+			<beschrijving>Lantaarns</beschrijving>
+			<prijs>71</prijs>
+			<afbeelding>source/afbeeldingen/uitvaartwinkel/toonzaal/lantaarns.jpg</afbeelding>
+		</item>
+		<item>
+			<id>9</id>
+			<beschrijving>Laserfoto</beschrijving>
+			<prijs>67</prijs>
+			<afbeelding>source/afbeeldingen/uitvaartwinkel/toonzaal/laserfoto.jpg</afbeelding>
+		</item>
+		<item>
+			<id>10</id>
+			<beschrijving>Sierunes</beschrijving>
+			<prijs>78</prijs>
+			<afbeelding>source/afbeeldingen/uitvaartwinkel/toonzaal/sierurnes.jpg</afbeelding>
+		</item>
+		<item>
+			<id>11</id>
+			<beschrijving>Toonzaal</beschrijving>
+			<prijs>65</prijs>
+			<afbeelding>source/afbeeldingen/uitvaartwinkel/toonzaal/toonzaal.jpg</afbeelding>
+		</item>
+		<item>
+			<id>12</id>
+			<beschrijving>Urnes</beschrijving>
+			<prijs>69</prijs>
+			<afbeelding>source/afbeeldingen/uitvaartwinkel/toonzaal/urnes.jpg</afbeelding>
+		</item>
+		<item>
+			<id>13</id>
+			<beschrijving>Urneveldplaat met vaas en flutte</beschrijving>
+			<prijs>73</prijs>
+			<afbeelding>source/afbeeldingen/uitvaartwinkel/toonzaal/urneveldplaat-met-vaas-en-flutte.jpg</afbeelding>
+		</item>
+		<item>
+			<id>13</id>
+			<beschrijving>Vaasjes</beschrijving>
+			<prijs>73</prijs>
+			<afbeelding>source/afbeeldingen/uitvaartwinkel/toonzaal/vaasjes.jpg</afbeelding>
+		</item>
+		<item>
+			<id>13</id>
+			<beschrijving>Vingerafdruk</beschrijving>
+			<prijs>73</prijs>
+			<afbeelding>source/afbeeldingen/uitvaartwinkel/toonzaal/vingerafdruk.jpg</afbeelding>
+		</item>
+	</toonzaal>
+</product>
+
+

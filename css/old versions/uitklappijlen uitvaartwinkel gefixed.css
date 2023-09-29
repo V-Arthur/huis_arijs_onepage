@@ -1,0 +1,1660 @@
+body {
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+
+	font-family: helvetica;
+
+	overflow: auto;
+
+}
+
+#wrapper{
+	/*background-color: blue;*/
+	position: relative;
+	
+}
+
+/*---------------------------------------- header ----------------------------------------*/
+
+
+header{
+	/*background-color: pink;*/
+
+	height: 150px;
+
+}
+
+#headerLogoWrapper{
+	/*background-color: red;*/
+	float: left;
+	width: 15%;
+	min-width: 129px;
+	height: 100%;
+}
+
+#navLogo{
+	/*background-color: blue;*/
+	display: block;
+	height: 126px;
+	width: 129px;
+	padding-top: 24px;
+	float: right;
+
+}
+/*
+#mainNavWrapper{
+	background-color: orange;
+	width: 65%;
+	height: 100%;
+	float: left;
+}*/
+
+nav{
+	/*background-color: yellow;*/
+	width: 65%;
+	height: 100%;
+	float: left;
+	margin: 0 auto;
+}
+
+nav ul{
+	/*background-color: #454545;*/
+	list-style-type:none;
+	margin: 0 auto;
+	padding: 0;
+/*	float: right;*/
+	width: 100%;
+	height: 100%;
+}
+
+nav ul li{
+	display:inline-block;
+	
+	margin-left: 40px;
+
+	float: right;
+}
+
+nav ul li a{
+	/*background-color: #ffcc00;*/
+	font-size: 20px;
+	text-decoration: none;
+	color: #19191B;
+
+	display: block;
+	padding-top: 88px;
+	padding-bottom: 37px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+ul li a:hover{
+	text-decoration: underline;
+}
+
+#navButtonWrapper{
+	/*background-color: purple;*/
+	float: right;
+	width: 100px;
+	height: 100%;
+
+	display: none;
+}
+
+.menuLabel{
+	/*background: #19c589;*/
+	display: block;
+	height: 100px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox]:checked ~ header{
+    background-color: blue;
+}
+
+
+
+@media screen and (max-width: 1550px){
+	/* pas afstand tussen ul li elementen aan*/
+	nav ul li{
+	
+		margin-left: 20px;
+	}
+}
+
+@media screen and (max-width: 1360px){
+	nav ul li{
+	
+		margin-left: 5px;
+	}
+}
+
+
+
+@media screen and (max-width: 1230px){
+	.navLinksWrapper{
+		display: none !important;
+	}
+	#navButtonWrapper{
+		display: block;
+	}
+	#mainNavWrapper{
+		width: 10%;
+		min-width: 100px;
+		float: right;
+	}
+}
+
+
+
+/***********
+header {
+	min-height: 10px;
+	overflow: hidden;
+		
+	
+	/*background-color: #ffffff;*/
+/*********}
+
+#headerContent{
+	background-color: pink;
+	padding-top: 24px;
+	min-height: 118px;
+	width: 70%;
+	margin: auto;
+	padding-bottom: 20px;
+	
+	text-align: center;
+}
+
+#navLogo{	
+	/*background-color: blue;*/
+	/**********float: left;
+}
+
+#navLogo img{
+	display: block;
+}
+
+#menuSmallScreen{
+	background-color: red;
+	display: inline;
+	width: 60px;
+	height: 60px;
+}
+
+/*
+.show-menu {
+	
+	
+	background: #19c589;
+	float: left;
+	padding: 10px;
+	margin-top: 30px;
+	width: 50px;
+	height: 50px;
+}
+
+#show-menu{
+    display: none;
+}
+*/
+/************ul{
+	/*background-color: blue;*/
+	/***************margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+	display: inline-block;
+}
+
+ul li{
+	/*background-color: orange;*/
+	/*********float: left;
+}
+
+ul li a{
+	/*background-color: red;*/
+	/*******************min-height: 58px;
+	/*min-height: 2.9em;*/
+
+	/***************display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+
+	text-align: center;
+
+	
+	padding-top: 60px;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+	/*
+	padding-top: 3em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	*/
+/*********}
+
+ul li a:hover{
+	text-decoration: underline;
+}*********/
+
+
+/*---------------------------------------- BANNER ----------------------------------------*/
+
+#banner{
+	background: url("../source/afbeeldingen/banner/afscheidnemen.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 900px;
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+#banner::after{
+
+  content: " ";
+  z-index: 0;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(250, 250, 250, 0.3);
+
+}
+
+#logoBanner{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: 309px;
+	/*background-color: #ffcc00;*/
+	z-index: 1;
+
+}
+
+#sloganBanner{
+	background-color: #3D3228;
+	min-height: 110px;
+	margin-top: 668px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+
+#slogan{
+	font-size: 27px;
+	letter-spacing: 1px;
+	color: #D3D3D3;
+
+	margin-top: 20px;
+	text-align: center;
+	line-height: 100%;
+	height: 90px;
+	z-index: 1;
+}
+
+/*---------------------------------------- VOORZORG ----------------------------------------*/
+
+#voorzorg{
+	background-color: #E0D5C1;
+	height: 863px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+#voorzorgContent{
+	height: 733px;
+	/*background-color: orange;*/
+
+	display: block;
+	width: 1100px;
+	position: relative;
+	
+	margin: auto;
+	margin-top: 70px;
+
+}
+
+.voorzorgMainContent{
+	background-color: white;
+	cursor: pointer;
+	width: 333.5px;
+	height: 546.4px;
+	overflow: hidden;
+}
+
+.voorzorgMainContent:hover{
+	background-color: #AFA082;
+}
+
+.voorzorgAfbeelding{
+	/*background-color: grey;*/
+
+	left: 0;
+	right: 0;
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top: 26.7px;
+	width: 300px;
+	height: 300px;
+}
+
+#wilsbeschikkingAfbeelding{
+	background: url("../source/afbeeldingen/voorzorg/voorzorg-wilsbeschikking-afbeelding.jpg") no-repeat;
+
+	background-position: center;
+
+	background-size: cover;
+}
+
+#keuzebegrafenisAfbeelding{
+	background: url("../source/afbeeldingen/voorzorg/voorzorg-keuze-graf-afbeelding.jpg") no-repeat;
+
+	background-position: center;
+
+	background-size: cover;
+}
+
+#voorafregelingAfbeelding{
+	background: url("../source/afbeeldingen/voorzorg/voorzorg-voorafregeling-afbeelding.jpg") no-repeat;
+
+	background-position: center;
+
+	background-size: cover;
+}
+
+#keuzebegrafenisWrapper{
+	/*background-color: green;*/
+
+	position: absolute; 
+	left: 0; 
+	right: 0; 
+	margin-left: auto; 
+	margin-right: auto; 
+	
+	margin: 0 auto;
+}
+
+#voorafregelingWrapper{
+	/*background-color: purple;*/
+	
+	right: 0px;
+}
+
+.contentWrapper{
+	position: absolute;
+	width: 333.5px;
+	height: 733px;
+}
+
+.voorzorgTitel{
+	/*background-color: pink;*/
+
+	color: #19191B;
+
+	margin-top: 58.24px;
+
+	text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+
+    font-size: 20px;
+}
+
+.voorzorgTekst{
+	/*background-color: purple;*/
+
+	text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+
+    font-size: 12px;
+
+    width: 291px;
+
+    margin: 0 auto;
+    
+    margin-top: 56.5px;
+
+    color: #434343;
+}
+
+.keuzebegrafenisExtraTekst.voorzorgExtraTitel{
+	font-size: 15px;
+	color: #19191B;
+}
+
+.voorzorgExtraTekst{
+	display: none;
+}
+
+.voorzorgLinks{
+	/*background-color: black;*/
+
+	margin-top: 30px;
+	width: 333.5px;
+	/*height: 39.1px;*/
+	height: 156.4px;
+
+	text-align: center;
+}
+
+.voorzorgIndividueleLink{
+	background-color: white;
+	width: 333.5px;
+	height: 38.1px;
+}
+
+.voorzorgIndividueleLink.voorzorgIndividueleLinkIsLink{
+	border-bottom: 1px solid #19191B;
+}
+
+.voorzorgIndividueleLink.voorzorgIndividueleLinkIsLink:hover{
+	background-color: #AFA082;
+	border-bottom: 1px solid #75685B;
+}
+
+.voorzorgIndividueleLink a{
+	font-size: 12px;
+
+	text-decoration: none;
+	text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+
+	width: 291px;
+
+	display: block;
+
+	margin: 0 auto;
+
+	width: 333.5px;
+	height: 39.1px;
+
+	padding-top: 6px;
+
+	color: #434343;
+}
+
+.voorzorgIndividueleLink p{
+	font-size: 12px;
+	color: #434343;
+
+	width: 333.5px;
+	height: 33.1px;
+
+	text-align: center;
+
+	padding-top: 6px;
+
+}
+
+/*---------------------------------------- UITVAARTWINKEL ----------------------------------------*/
+
+#uitvaartwinkel{
+	background-color: white;
+	height: 786px;
+
+	overflow: hidden;
+}
+
+#uitvaartwinkelMainContentWrapper{
+	/*background-color: blue;*/
+
+	width: 1101.265px;
+	height: 652.913px;
+
+	margin: 0 auto;
+
+	margin-top: 70px;
+
+}
+
+#uitvaarwinkelTitelWrapper{
+	/*background-color: pink;*/
+	height: 71.4px;
+
+}
+
+#uitvaartwinkelTitel{
+	/*background-color: red;*/
+	color: #19191B;
+	font-size: 20px;
+
+	text-align: center;
+}
+
+#contentLinksWrapper{
+	background-color: brown;
+	width: 311.505px;
+	height: 525.6px;
+
+	position: relative;
+	float: left;
+}
+
+#bloemenWrapper{
+	background-color: #E0D5C1;
+	width: 311.505px;
+	height: 437.1px;
+	overflow: hidden;
+	position: relative;
+
+	/*height: 88.5px;*/
+
+	/*
+	position: absolute;
+	z-index: 1;
+	*/
+}
+
+#toonzaalWrapper{
+	background-color: #AFA083;
+
+	width: 311.505px;
+	height: 88.5px;
+	text-align: center;
+	overflow: hidden;
+	/*height: 437.1px;*/
+	
+	/*
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	*/
+}
+
+#bloemenTitel{
+	color: #19191B;
+	/*background-color: orange;*/
+
+	
+	margin: 0;
+	margin-top: 39.4px;
+
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+#toonzaalTitel{
+	/*background-color: brown;*/
+	color: #19191B;
+
+	position: absolute;
+	margin: 0;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 29.4px;
+
+	font-size: 20px;
+	text-align: center;
+
+
+
+	/*
+	
+	text-align: center;
+	
+
+	
+
+	left: 0; 
+	right: 0; 
+	margin-left: auto; 
+	margin-right: auto; 
+
+	bottom: 0;
+	margin-bottom: 29.4px;
+	*/
+}
+
+
+
+
+#uitklappijlNaarBoven{
+	/*background-color: #ffcc00;*/
+
+	position: absolute;
+	bottom: 0;
+
+	/*
+
+	margin: 0 auto;
+	padding: 0 auto;
+	margin-bottom: 88.5px;
+	*/
+
+	/*z-index: 3;*/
+
+	/*margin-bottom: 436.5px;*/
+}
+
+#uitklappijlNaarBoven img{
+	display: block;
+}
+
+
+#uitklappijlNaarBeneden{
+	/*background-color: blue;*/
+
+	/*
+	position: absolute;
+
+	margin: 0 auto;
+	padding: 0 auto;
+
+	top: 0;
+
+	margin-top: 88.5px;
+	*/
+
+	/*z-index: 3;*/
+
+}
+
+#uitklappijlNaarBeneden img{
+	/*position: block;*/
+}
+
+
+
+
+
+
+
+
+#bloemenTekst{
+	/*background-color: yellow;*/
+	color: #434343;
+
+	width: 260px;
+
+	font-size: 12px;
+	text-align: justify;
+
+	margin: 0 auto;
+
+	margin-top: 28px;
+}
+
+#bloemenTekst p{
+	padding-bottom: 10px;
+
+	line-height: 1.5;
+}
+
+#extraAfstandParagrafen{
+	/*background-color: green;*/
+	margin-top: 40px;
+}
+
+#toonzaalTekst{
+	/*background-color: pink;*/
+	color: #434343;
+
+	width: 260px;
+
+	font-size: 12px;
+	text-align: justify;
+
+	margin: 0 auto;
+	display: inline-block;
+	padding-top: 0px;
+
+	
+}
+
+#toonzaalTekst h1{
+	color: #19191B;
+
+	font-size: 12px;
+	font-weight: bold;
+
+	margin-bottom: 0px;
+}
+
+#toonzaalTekst p{
+	margin: 0;
+	padding: 0;
+}
+
+#contentRechtsWrapper{
+	background-color: #3D3229;
+	width: 789.76px;
+	height: 525.6px;
+
+	float: left;
+}
+
+.uitvaartwinkelAfbeeldingen{
+	/*background-color: orange;*/
+	
+
+	width: 250px;
+	height: 250px;
+
+	margin-top: 9px;
+	margin-left: 10px;
+	float: left;
+}
+
+#uitvaartwinkelAfbeelding1{
+	background: url("../source/afbeeldingen/uitvaartwinkel/bloemen/naturel-nr-1_1336346424_1.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#uitvaartwinkelAfbeelding2{
+	background: url("../source/afbeeldingen/uitvaartwinkel/bloemen/naturel-nr-2_1336346447_1.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#uitvaartwinkelAfbeelding3{
+	background: url("../source/afbeeldingen/uitvaartwinkel/bloemen/naturel-nr-3_1336346467_1.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#uitvaartwinkelAfbeelding4{
+	background: url("../source/afbeeldingen/uitvaartwinkel/bloemen/naturel-nr-4_1336346495_1.jpg") no-repeat;
+	background-position: center; 
+	background-size: cover;
+}
+
+#uitvaartwinkelAfbeelding5{
+	background: url("../source/afbeeldingen/uitvaartwinkel/bloemen/naturel-nr-5_1336346518_1.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#uitvaartwinkelAfbeelding6{
+	background: url("../source/afbeeldingen/uitvaartwinkel/bloemen/naturel-nr-6_1336346537_1.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#uitvaartwinkelContentBottomWrapper{
+	/*background-color: orange;*/
+	width: 100%;
+	height: 55.913px;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+#uitvaartwinkelPijlLinks{
+	
+	background: url("../source/icons/vorige-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	width: 37px;
+	height: 37px;
+	display: inline-block;
+	margin-right: 15px;
+	margin-top: 18.913px;
+}
+
+#uitvaartwinkelPijlRechts{
+	background: url("../source/icons/volgende-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	width: 37px;
+	height: 37px;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+
+/*---------------------------------------- FUNERARIUM EN AULA ----------------------------------------*/
+
+#funerarium{
+	background-color: #E0D5C1;
+	height: 723px;
+
+	overflow: hidden;
+}
+
+#funerariumWrapper{
+	/*background-color: red;*/
+	position: relative;
+
+	margin: 0 auto;
+	margin-top: 70px;
+
+	width: 1076px;
+	height: 594px;
+
+	z-index: 1;
+}
+
+#funerariumBackWrapper{
+	/*background-color: blue;*/
+	position: absolute;
+
+	display:flex;
+	justify-content:space-between;
+
+	width: 1044px;
+	height: 289px;
+
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+
+
+	z-index: 1;
+}
+
+.funerariumBackContentWrapper{
+	text-align: justify;
+	box-sizing: border-box; /* Ch, Saf 5.1+, IE 8+, Op 9+  */
+	color: #434343;
+
+	height: 289px;
+}
+
+#funerariumBackContentLeftWrapper{
+	/*background-color: orange;*/
+	overflow: hidden;
+
+	font-size: 12px;
+
+	padding-top: 39px;
+
+	width: 326px;
+
+}
+
+#funerariumBackContentCenterWrapper{
+	background-color: #3D3228;
+	position: relative;
+
+	margin-left: 110px;
+
+	font-size: 20px;
+	color: white;
+	text-align: center;
+
+
+	padding-top: 30px;
+
+	width: 222px;
+}
+
+#funerariumBackContentRightWrapper{
+	/*background-color: pink;*/
+
+	font-size: 12px;
+
+	padding-top: 72px;
+
+
+	width: 328px;
+}
+
+#funerariumFrontWrapper{
+	/*background-color: purple;*/
+	position: absolute;
+	display:flex;
+	justify-content:space-between;
+
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	margin-top: 182px;
+
+	width: 1076px;
+	height: 356px;
+
+	z-index: 2;
+}
+
+.funerariumKolomWrappers{
+	/*background-color: yellow;*/
+	/*white-space:nowrap;*/
+
+	width: 230px;
+	height: 356px;
+}
+
+
+.funerariumKolomTitel{
+	background-color: white;
+
+	text-align: center;
+	line-height: 39px;
+
+	width: 230px;
+	height: 39px;
+}
+
+.funerariumKolomTitel p{
+	font-size: 20px;
+	display: inline;
+}
+
+.funerariumKolomAfbeelding{
+	background-color: white;
+	position: absolute;
+
+	bottom: 0;
+
+	width: 230px;
+	height: 300px;
+}
+
+.funerariumKolomAfbeeldingContainer{
+	border: 4px solid #E8E8E7;
+
+	margin: 0 auto;
+	margin-top: 11px;
+
+	width: 190px;
+	height: 270px;
+}
+/*
+.funerariumKolomAfbeelding img{
+	-webkit-clip-path: inset(30px 10px 30px 10px);
+	clip-path: inset(15px 20px 20px 15px);
+}
+*/
+/*
+#funerariumKolomEenAfbeeldingContainer{
+	background: url("../source/afbeeldingen/funerarium_en_aula/inkom_2.jpg") no-repeat;
+
+	background-position: center;
+	background-size: cover;
+}
+
+#funerariumKolomTweeAfbeeldingContainer{
+	background: url("../source/afbeeldingen/funerarium_en_aula/inkom_3.jpg") no-repeat;
+
+	background-position: center;
+	background-size: cover;
+}
+
+#funerariumKolomDrieAfbeeldingContainer{
+	background: url("../source/afbeeldingen/funerarium_en_aula/gedenkboek.jpg") no-repeat;
+
+	background-position: center;
+	background-size: cover;
+}
+
+#funerariumKolomVierAfbeeldingContainer{
+	background: url("../source/afbeeldingen/funerarium_en_aula/ontvangst.jpg") no-repeat;
+
+	background-position: center;
+	background-size: cover;
+}
+*/
+
+#funerariumBottomWrapper{
+	/*background-color: green;*/
+	width: 100%;
+	height: 56px;
+	
+
+	position: absolute;
+	bottom: 0px;
+
+	text-align: center;
+}
+
+#funerariumPijlLinks{
+	background: url("../source/icons/vorige-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	width: 37px;
+	height: 37px;
+	display: inline-block;
+	margin-right: 15px;
+	margin-top: 9.5px;
+
+
+	
+}
+
+#funerariumPijlRechts{
+	background: url("../source/icons/volgende-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	width: 37px;
+	height: 37px;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+
+
+
+
+
+/*
+#uitvaartwinkelContentBottomWrapper{
+	background-color: orange;
+	width: 100%;
+	height: 55.913px;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+#uitvaartwinkelPijlLinks{
+	
+	background: url("../source/icons/vorige-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	width: 37px;
+	height: 37px;
+	display: inline-block;
+	margin-right: 15px;
+	margin-top: 18.913px;
+}
+
+#uitvaartwinkelPijlRechts{
+	background: url("../source/icons/volgende-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	width: 37px;
+	height: 37px;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+
+
+*/
+
+/*---------------------------------------- CONDOLEREN ----------------------------------------*/
+
+/*----------CONDOLEREN LAATSTE UITVAARTEN----------*/
+
+#condoleren{
+	background-color: white;
+	height: 587px;
+
+	overflow: hidden;
+}
+
+#condolerenContentWrapper{
+	/*background-color: red;*/
+
+	margin: 0 auto;
+	margin-top: 70px;
+
+	width: 1080px;
+	height: 457px;
+}
+
+.condolerenKolom{
+	/*background-color: pink;*/
+
+	float: left;
+
+	width: 270px;
+	height: 457px;
+
+	text-align: center;
+
+	position: relative;
+}
+
+.condolerenImageWrapper{
+	background-color: blue;
+
+	margin: 0 auto;
+
+	width: 230px;
+	height: 230px;
+
+	overflow: hidden;
+
+	text-align: center;
+
+	
+	vertical-align: middle;
+}
+
+#condolerenImageEen{
+	background: url("../source/afbeeldingen/condoleren/isabella.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#condolerenImageTwee{
+	background: url("../source/afbeeldingen/condoleren/lutgarde.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#condolerenImageDrie{
+	background: url("../source/afbeeldingen/condoleren/condoleren_huis_arijs_logo.png") no-repeat;
+	background-position: center;
+}
+
+#condolerenImageVier{
+	background: url("../source/afbeeldingen/condoleren/jeanneke.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#condolerenContentWrapper h1{
+	font-size: 20px;
+	color: #19191B;
+
+	margin-bottom: 2px;
+}
+
+#condolerenContentWrapper h2{
+	font-size: 15px;
+	color: #676767;
+
+	margin-top: 4px;
+	margin-bottom: 25px;
+}
+
+#condolerenContentWrapper p{
+	font-size: 12px;
+	color: #434343;
+}
+
+.condolerenWoonplaats{
+	margin-top: 25px;
+}
+
+.condolerenKolomBottomWrapper{
+	/*background-color: blue;*/
+
+	width: 230px;
+	height: 30px;
+
+	position: absolute;
+	left: 0; 
+	right: 0; 
+	margin-left: auto; 
+	margin-right: auto; 
+	
+	bottom: 0;
+
+	display:flex;
+	justify-content:space-between;
+}
+
+.condolerenIcons{
+	/*background-color: red;*/
+	height: 100%;
+	cursor: pointer;
+}
+
+.condolerenIcons.condolerenCondolerenIcon{
+	background: url("../source/icons/condoleren-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 33px;
+}
+
+.condolerenIcons.condolerenRouwbriefIcon{
+	background: url("../source/icons/rouwbrief-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 43px;
+}
+
+.condolerenIcons.condolerenBloemenIcon{
+	background: url("../source/icons/bloemen-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 50px;
+}
+
+.condolerenIcons.condolerenCondolerenIcon:hover{
+	background: url("../source/icons/condoleren-highlighted-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 33px;
+}
+
+.condolerenIcons.condolerenRouwbriefIcon:hover{
+	background: url("../source/icons/rouwbrief-highlighted-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 43px;
+}
+
+.condolerenIcons.condolerenBloemenIcon:hover{
+	background: url("../source/icons/bloemen-highlighted-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 50px;
+}
+
+
+
+/*----------CONDOLEREN FORM SELECTED----------*/
+
+/*.condolerenSelectedKolom{
+	background-color: pink;
+
+	float: left;
+
+	width: 270px;
+	height: 457px;
+
+	text-align: center;
+
+	position: relative;
+}*/
+
+.condolerenIcons.condolerenCondolerenIcon.condolerenCondolerenSelectedIcon{
+	background: url("../source/icons/condoleren-highlighted-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 33px;
+}
+
+#condolerenFormWrapper{
+	/*background-color: orange;*/
+
+	width: 740px;
+	height: 457px;
+
+	float: right;
+
+	position: relative;
+}
+
+#condolerenFormWrapper h1{
+	margin: 0;
+	margin-bottom: 25px;   
+	font-weight: normal;
+	font-size: 20px;
+}
+
+#condolerenFormLeftWrapper{
+	background-color: #AFA083;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+
+	width: 368px;
+	height: 192px;
+
+	padding-top: 1px;
+	padding-bottom: 5px;
+
+	padding-left: 3px;
+	padding-right: 3px;
+
+	margin: 0;
+
+	border: none;
+
+	float: left;
+}
+
+#condolerenFormWrapper label{
+	background-color: white;
+
+	color: #8C8C8C;
+	font-size: 15px;
+
+	display: inline-block;
+	width: 100px;
+	height: 26px;
+	
+	margin-top: -8px;
+	margin-bottom: 1px;
+
+	padding-top: 11px;
+	padding-bottom: 5px;
+	padding-left: 6px;
+
+	-moz-border-radius:2px;  /* Firefox */
+	-webkit-border-radius:2px; /* Webkit-Browsers */
+	border-radius:2px;
+}
+
+.condolerenFormTextboxes{
+	display: inline-block;
+	width: 247px;
+	height: 36px;
+	float: right;
+	margin-top: -8px;
+	margin-bottom: -5px;
+
+	background-color: #E0D5C1;
+
+	-moz-border-radius: 5px;  /* Firefox */
+	-webkit-border-radius: 5px; /* Webkit-Browsers */
+	border-radius: 5px;
+
+	border-color: rgba(255, 255, 255, 0);
+
+	color: #434343;
+}
+
+#txtNummer{
+	width: 100px;
+	margin-right: 147px;
+}
+
+#txtPostcode{
+	width: 100px;
+	margin-right: 147px;
+}
+
+#condolerenFormRightWrapper{
+	background-color: #AFA083;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+
+    width: 368px;
+	height: 192px;
+
+	padding-top: 1px;
+	padding-bottom: 5px;
+
+	padding-left: 3px;
+	padding-right: 3px;
+
+	margin: 0;
+
+	border: none;
+
+	float: right;
+}
+
+#condolerenFormBottomWrapper{
+	background-color: #AFA083;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+
+    float: left;
+
+    margin: 0;
+
+    margin-top: 4px;
+    margin-bottom: 54.5px;
+    width: 100%;
+
+    padding-top: 1px;
+	padding-bottom: 5px;
+
+	padding-left: 3px;
+	padding-right: 3px;
+
+	border: none;
+}
+
+#condolerenFormBottomWrapper label{
+	display: inline-block;
+	float: left;
+	margin-top: -8px;
+	margin-right: 3px;
+
+	display: inline-block;
+}
+
+#txtaBericht{
+	width: 619px;
+	height: 72px;
+
+	display: inline-block;
+
+	background-color: #E0D5C1;
+
+	-moz-border-radius: 5px;  /* Firefox */
+	-webkit-border-radius: 5px; /* Webkit-Browsers */
+	border-radius: 5px;
+
+	border-color: rgba(255, 255, 255, 0);
+
+	margin-top: -8px;
+
+	margin-bottom: -13px;
+
+	resize: none;
+
+	color: #434343;
+}
+
+#condolerenformButtonWrapper{
+	/*background-color: blue;*/
+
+	position: absolute; 
+	bottom: 0;
+	right: 0;
+}
+
+.btnTerug{
+	padding: 14.8px 31.6px 14.8px 31.6px !important;
+	font-size: 12px !important;
+	background-color: rgba(255, 255, 255, 0);
+	color: #19191B;
+
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+
+	border: 3px solid #3D3229;
+
+	
+	cursor: pointer;
+}
+
+.btnTerug:hover{
+	color: #E0D5C1;
+	border-color: #E0D5C1;
+}
+
+#condolerenBtnSubmit{
+	margin-left: 10px;
+}
+
+.btnSubmit{
+	padding: 17.8px 23.6px 17.8px 23.6px !important;
+	font-size: 12px !important;
+	background-color: #3D3229;
+	color: #ffffff;
+
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+
+	border: none;
+	
+	cursor: pointer;
+}
+
+.btnSubmit:hover{
+	background-color: #E0D5C1;
+}
+
+/*----------CONDOLEREN VORIGE UITVAARTEN----------*/
+
+
+/*---------------------------------------- OVER ONS ----------------------------------------*/
+
+#overons{
+	background-color: #E0D5C1;
+	height: 904px;
+
+	overflow: hidden;
+}
+
+#overonsContentWrapper{
+	/*background-color: blue;*/
+
+	margin: 0 auto;
+	margin-top: 70px;
+
+	display: flex;
+	justify-content: space-between;
+
+	width: 1088px;
+	height: 774px;
+}
+
+#overonsCreadWrapper{
+	background-color: #19191B;
+
+	width: 541px;
+	height: inherit;
+}
+
+#overonsCreadWrapper img{
+	width: 495px;
+	height: 700px;
+
+	display: block;
+    margin: 0 auto;
+	margin-top: 25px; 
+}
+
+#overonsCreadPijlenWrapper{
+	/*background-color: green;*/
+	width: 100%;
+	height: 49px;
+
+	text-align: center;
+}
+
+#overonsPijlLinks{
+	background: url("../source/icons/vorige-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	width: 37px;
+	height: 37px;
+	
+	display: inline-block;
+	margin-right: 15px;
+	margin-top: 6px;	
+}
+
+#overonsPijlRechts{
+	background: url("../source/icons/volgende-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	width: 37px;
+	height: 37px;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+#overonsTekstWrapper{
+	/*background-color: orange;*/
+
+	align-self: center;
+
+	width: 507px;
+	height: 718px;
+
+	font-size: 12px;
+	color: #434343;
+
+	text-align: justify;
+}
+
+#overonsTekstWrapper h1{
+	font-size: 15px;
+	color: #19191B;
+
+	margin-top: 0;
+}
+
+#overonsTekstWrapper p{
+	margin-bottom: 25px; 
+}
+
+#overonsTekstWrapper ul li{
+	margin-bottom: 6px;
+}
+
+/*---------------------------------------- CONTACT ----------------------------------------*/
+
+#contact{
+	background-color: #00cc00;
+	height: 575px;
+
+	overflow: hidden;
+}
+
+/*---------------------------------------- FOOTER ----------------------------------------*/
+
+footer{
+	background-color: #AFA083;
+	height: 295.7px;
+
+	overflow: hidden;
+}
+
+#footerImageWrapper{
+	/*background-color: orange;*/
+	
+	margin: 0 auto;
+	margin-top: 70px;
+	
+	width: 1115px;
+	height: 118px;
+
+	text-align: center;
+}
+
+#footerTekstWrapper{
+	/*background-color: pink;*/
+
+	margin: 0 auto;
+	margin-top: 40px;
+
+	width: 1115px;
+	height: 13px;
+
+	font-size: 12px;
+
+	color: white;
+}
+
+#footerTekstWrapper a{
+	text-decoration: none;
+	color: white;
+
+}
+
+#footerTekstWrapper a:hover{
+	text-decoration: underline;
+}
+
+.footerTekstLinks{
+	margin-right: 40px;
+}
+
+.footerTekstRechts{
+	float: right;
+	margin-left: 40px;
+}

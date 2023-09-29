@@ -1,0 +1,3168 @@
+body {
+	background-color: #ffffff;
+	margin: 0;
+	padding: 0;
+
+	font-family: helvetica;
+
+	overflow: auto;
+
+}
+
+#wrapper{
+	/*background-color: blue;*/
+	position: relative;
+	
+}
+
+section{
+	box-shadow: 2px 3px 4.9875px 0.0125px rgba(35, 31, 32, 0.15);
+}
+
+/*---------------------------------------- header ----------------------------------------*/
+
+
+header{
+	background-color: white;
+	position: relative;
+	width: 100%;
+	height: 150px;
+	z-index: 8;
+	box-shadow: 2px 3px 4.9875px 0.0125px rgba(35, 31, 32, 0.15);
+}
+
+.fixed {
+	position:fixed;
+	z-index: 100;
+}
+
+.navbar-fixed {
+    top: 0;
+    z-index: 100;
+	position: fixed;
+    width: 100%;
+}
+
+
+#headerLogoWrapper{
+	/*background-color: red;*/
+
+	position: relative;
+
+	float: left;
+	width: 15%;
+	min-width: 129px;
+	height: 100%;
+}
+
+#navLogo{
+	/*background-color: blue;*/
+	background: url("../source/logo/huis-arijs-uitvaartverzorging-logo.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+
+	position: absolute;
+
+	top: 50%;
+	margin-top: -62.5px;
+	right: 0;
+
+	display: block;
+	height: 100px;
+	width: 129px;
+	padding-top: 24px;
+	
+
+}
+/*
+#mainNavWrapper{
+	background-color: orange;
+	width: 65%;
+	height: 100%;
+	float: left;
+}*/
+
+#mainNav{
+	/*background-color: yellow;*/
+	width: 65%;
+	height: 100%;
+	float: left;
+	margin: 0 auto;
+}
+
+.navLinksWrapper ul{
+	/*background-color: #454545;*/
+	list-style-type:none;
+	margin: 0 auto;
+	padding: 0;
+/*	float: right;*/
+}
+
+#mainNav ul{
+	width: 100%;
+	height: 100%;
+}
+
+.navLinksWrapper ul li{
+	display:inline-block;
+}
+
+#mainNav ul li{
+	margin-left: 40px;
+
+	float: right;
+}
+
+.navLinksWrapper ul li a{
+	color: #19191B;
+	text-decoration: none;
+}
+
+#mainNav ul li a{
+	/*background-color: #ffcc00;*/
+	font-size: 20px;
+	
+	display: block;
+	padding-top: 88px;
+	padding-bottom: 37px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.navLinksWrapper ul li a:hover{
+	text-decoration: underline;
+}
+
+#navButtonWrapper{
+	/*background-color: purple;*/
+	float: right;
+	width: 100px;
+	height: 100%;
+
+	display: none;
+}
+
+.menuLabel{
+	/*background: #19c589;*/
+	display: block;
+	height: 100px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+input[type=checkbox]{
+    display: none;
+}
+
+input[type=checkbox]:checked ~ header{
+    background-color: blue;
+}
+
+
+
+@media screen and (max-width: 1550px){
+	/* pas afstand tussen ul li elementen aan*/
+	#mainNav ul li{
+	
+		margin-left: 20px;
+	}
+}
+
+@media screen and (max-width: 1360px){
+	#mainNav ul li{
+	
+		margin-left: 5px;
+	}
+}
+
+
+
+@media screen and (max-width: 1230px){
+	.navLinksWrapper{
+		display: none !important;
+	}
+	#navButtonWrapper{
+		display: block;
+	}
+	#mainNavWrapper{
+		width: 10%;
+		min-width: 100px;
+		float: right;
+	}
+}
+
+
+
+/***********
+header {
+	min-height: 10px;
+	overflow: hidden;
+		
+	
+	/*background-color: #ffffff;*/
+/*********}
+
+#headerContent{
+	background-color: pink;
+	padding-top: 24px;
+	min-height: 118px;
+	width: 70%;
+	margin: auto;
+	padding-bottom: 20px;
+	
+	text-align: center;
+}
+
+#navLogo{	
+	/*background-color: blue;*/
+	/**********float: left;
+}
+
+#navLogo img{
+	display: block;
+}
+
+#menuSmallScreen{
+	background-color: red;
+	display: inline;
+	width: 60px;
+	height: 60px;
+}
+
+/*
+.show-menu {
+	
+	
+	background: #19c589;
+	float: left;
+	padding: 10px;
+	margin-top: 30px;
+	width: 50px;
+	height: 50px;
+}
+
+#show-menu{
+    display: none;
+}
+*/
+/************ul{
+	/*background-color: blue;*/
+	/***************margin: 0;
+	padding: 0;
+	list-style-type: none;
+
+	display: inline-block;
+}
+
+ul li{
+	/*background-color: orange;*/
+	/*********float: left;
+}
+
+ul li a{
+	/*background-color: red;*/
+	/*******************min-height: 58px;
+	/*min-height: 2.9em;*/
+
+	/***************display: block;
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+
+	text-align: center;
+
+	
+	padding-top: 60px;
+	padding-left: 30px;
+	padding-right: 30px;
+	
+	/*
+	padding-top: 3em;
+	padding-left: 1.5em;
+	padding-right: 1.5em;
+	*/
+/*********}
+
+ul li a:hover{
+	text-decoration: underline;
+}*********/
+
+
+/*---------------------------------------- BANNER ----------------------------------------*/
+
+#banner{
+	background: url("../source/afbeeldingen/banner/afscheidnemen.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 900px;
+	position: relative;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	z-index: 9;
+}
+
+#banner::after{
+
+  content: " ";
+  z-index: 0;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(250, 250, 250, 0.3);
+
+}
+
+#logoBanner{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	margin-top: 309px;
+	/*background-color: #ffcc00;*/
+	z-index: 1;
+
+}
+
+#sloganBanner{
+	background-color: #3D3228;
+	min-height: 110px;
+	margin-top: 668px;
+	overflow: hidden;
+	position: relative;
+	z-index: 1;
+}
+
+#slogan{
+	font-size: 27px;
+	letter-spacing: 1px;
+	color: #D3D3D3;
+
+	margin-top: 20px;
+	text-align: center;
+	line-height: 100%;
+	height: 90px;
+	z-index: 1;
+}
+
+/*---------------------------------------- VOORZORG ----------------------------------------*/
+
+#voorzorg{
+	background-color: #E0D5C1;
+	height: 863px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	z-index: 7;
+	position: relative;
+}
+
+#voorzorgContent{
+	height: 733px;
+	/*background-color: orange;*/
+
+	display: block;
+	width: 1100px;
+	position: relative;
+	
+	margin: auto;
+	margin-top: 70px;
+
+}
+
+.voorzorgMainContent{
+	/*background-color: white;*/
+	
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ededed+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(-30deg,  #ffffff 0%, #ededed 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-30deg,  #ffffff 0%,#ededed 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(150deg,  #ffffff 0%,#ededed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	cursor: pointer;
+	width: 333.5px;
+	height: 546.4px;
+	overflow: hidden;
+	box-shadow: 2px 3px 4.9875px 0.0125px rgba(35, 31, 32, 0.15);
+}
+
+.voorzorgMainContent:hover{
+	/*background-color: #CCC0A9;
+	#AFA082*/
+
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5dbc9+0,ccc0a9+100 */
+	background: #e5dbc9; /* Old browsers */
+	background: -moz-linear-gradient(-30deg,  #e5dbc9 0%, #ccc0a9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-30deg,  #e5dbc9 0%,#ccc0a9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(150deg,  #e5dbc9 0%,#ccc0a9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5dbc9', endColorstr='#ccc0a9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
+.voorzorgAfbeelding{
+	/*background-color: grey;*/
+
+	left: 0;
+	right: 0;
+	margin-left: auto; 
+	margin-right: auto;
+	margin-top: 26.7px;
+	width: 300px;
+	height: 300px;
+}
+
+#wilsbeschikkingAfbeelding{
+	background: url("../source/afbeeldingen/voorzorg/voorzorg-wilsbeschikking-afbeelding.jpg") no-repeat;
+
+	background-position: center;
+
+	background-size: cover;
+}
+
+#keuzebegrafenisAfbeelding{
+	background: url("../source/afbeeldingen/voorzorg/voorzorg-keuze-graf-afbeelding.jpg") no-repeat;
+
+	background-position: center;
+
+	background-size: cover;
+}
+
+#voorafregelingAfbeelding{
+	background: url("../source/afbeeldingen/voorzorg/voorzorg-voorafregeling-afbeelding.jpg") no-repeat;
+
+	background-position: center;
+
+	background-size: cover;
+}
+
+#keuzebegrafenisWrapper{
+	/*background-color: green;*/
+
+	position: absolute; 
+	left: 0; 
+	right: 0; 
+	margin-left: auto; 
+	margin-right: auto; 
+	
+	margin: 0 auto;
+}
+
+#voorafregelingWrapper{
+	/*background-color: purple;*/
+	
+	right: 0px;
+}
+
+.contentWrapper{
+	position: absolute;
+	width: 333.5px;
+	height: 733px;
+}
+
+.voorzorgTitel{
+	/*background-color: pink;*/
+
+	color: #19191B;
+
+	margin-top: 58.24px;
+
+	text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+
+    font-size: 20px;
+}
+
+.voorzorgTekst{
+	/*background-color: purple;*/
+
+	text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+
+    font-size: 12px;
+
+    width: 291px;
+
+    margin: 0 auto;
+    
+    margin-top: 56.5px;
+
+    color: #434343;
+}
+
+.keuzebegrafenisExtraTekst.voorzorgExtraTitel{
+	font-size: 15px;
+	color: #19191B;
+}
+
+.voorzorgExtraTekst{
+	display: none;
+}
+
+.voorzorgLinks{
+	/*background-color: black;*/
+
+	margin-top: 30px;
+	width: 333.5px;
+	/*height: 39.1px;*/
+	height: 156.4px;
+
+	text-align: center;
+}
+
+.voorzorgIndividueleLink{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ededed+100 */
+	background: #ffffff; /* Old browsers */
+	background: -moz-linear-gradient(-10deg,  #ffffff 0%, #ededed 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-10deg,  #ffffff 0%,#ededed 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(170deg,  #ffffff 0%,#ededed 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	width: 333.5px;
+	height: 38.1px;
+
+	box-shadow: 2px 3px 4.9875px 0.0125px rgba(35, 31, 32, 0.15);
+}
+
+.voorzorgIndividueleLink.voorzorgIndividueleLinkIsLink{
+	border-bottom: 1px solid #19191B;
+}
+
+.voorzorgIndividueleLink.voorzorgIndividueleLinkIsLink:hover{
+	background-color: #CCC0A9;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e5dbc9+0,ccc0a9+100 */
+	background: #e5dbc9; /* Old browsers */
+	background: -moz-linear-gradient(-10deg,  #e5dbc9 50%, #ccc0a9 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-10deg,  #e5dbc9 50%,#ccc0a9 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(170deg,  #e5dbc9 50%,#ccc0a9 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e5dbc9', endColorstr='#ccc0a9',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	border-bottom: 1px solid #75685B;
+}
+
+.voorzorgIndividueleLink a{
+	font-size: 12px;
+
+	text-decoration: none;
+	text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+
+	width: 291px;
+
+	display: block;
+
+	margin: 0 auto;
+
+	width: 333.5px;
+	height: 39.1px;
+
+	padding-top: 6px;
+
+	color: #434343;
+}
+
+.voorzorgIndividueleLink p{
+	font-size: 12px;
+	color: #434343;
+
+	width: 333.5px;
+	height: 33.1px;
+
+	text-align: center;
+
+	padding-top: 6px;
+
+}
+
+/*---------------------------------------- UITVAARTWINKEL ----------------------------------------*/
+
+#uitvaartwinkel{
+	background-color: white;
+	height: 786px;
+
+	z-index: 6;
+	position: relative;
+	overflow: hidden;
+}
+
+#uitvaartwinkelWinkelmandOverzichtWrapper{
+	/*background-color: white;*/
+	width: 628px;
+	height: 740px;
+
+	font-size: 15px;
+
+	z-index: 101;
+
+	position: absolute;
+}
+
+#uitvaartwinkelWinkelmandOverzichtTitels{
+	/*background-color: red;*/
+	width: 500px;
+	height: 20px;
+
+	position: relative;
+	overflow: hidden;
+
+	margin: 0 auto;
+	margin-top: 40px;	
+}
+
+#titelsContainer{
+	/*background-color: brown;*/
+	width: 370px;
+	height: 100%;
+	overflow: hidden;
+	float: right;
+}
+
+#beschrijvingContainer{
+	/*background-color: green;*/
+	overflow: hidden;
+	float: left;
+	width: 50%;
+	height: 100%;
+	top: 0;
+	padding-left: 35px;
+}
+
+#prijsContainer{
+	/*background-color: red;*/
+	overflow: hidden;
+	width: 25%;
+	height: 100%;
+}
+
+#beschrijving{
+	margin: 0;
+}
+
+#prijs{
+	margin: 0;
+}
+
+/*
+#uitvaartwinkelWinkelmandOverzichtTitels p{
+	position: absolute;
+	
+	bottom: 0;
+	margin-bottom: 0px;
+}
+
+#beschrijving{
+	/*background-color: blue;		/
+	left: 0; 
+	right: 0; 
+	margin-left: auto; 
+	margin-right: auto;
+	width: 80px;
+}
+
+#prijs{
+	right: 0;
+}
+
+*/
+
+#uitvaartwinkelWinkelmandOverzichtToegevoegdeProducten{
+	/*background-color: white;*/
+	width: 500px;
+	height: 600px;
+	overflow: auto;
+	margin: 0 auto;
+	margin-top: 10px;
+	overflow-y: scroll;
+	padding-left: 5px;
+}
+
+.productenGroep{
+	/*background-color: blue;*/
+	position: relative;
+	width: 100%;
+	height: 140px;
+}
+
+.productenGroepAfbeeldingContainer{
+	/*
+	background: url("../source/afbeeldingen/uitvaartwinkel/bloemen/naturel1.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+	*/
+	width: 125px;
+	
+	position: absolute;
+  	top: 50%;
+  	height: 125px;
+  	margin-top: -62.5px;
+}
+
+.productenGroepTekstContainer{
+	/*background-color: brown;*/
+	width: 357px;
+	
+	position: absolute;
+  	top: 50%;
+  	height: 125px;
+  	margin-top: -62.5px;
+
+  	right: 0;
+}
+
+.productenGroepBeschrijvingContainer{
+	/*background-color: green;*/
+	height: 100%;
+	width: 50%;
+	overflow: hidden;
+	float: left;
+	margin-left: 5px;
+}
+.productenGroepPrijsContainer{
+	/*background-color: red;*/
+	height: 100%;
+	width: 23%;
+	float: left;
+	margin-left: 15px;
+}
+
+.selectieVerwijderenWrapper{
+	/*background-color: #ffcc00;*/
+	height: 100%;
+	width: 21%;
+	float: left;
+}
+
+.selectieVerwijderenContainer{
+	/*background-color: blue;*/
+	width: 33px;
+	height: 44px;
+
+	margin: 0 auto;
+
+	margin-top: 10px;
+
+	/*background: url("../source/icons/prullenbak-button.png") no-repeat;
+	background-position: center;
+	background-size: contain;*/
+
+	cursor: pointer;
+}
+
+.productenGroepBeschrijving{
+	margin-left: 5px;
+}
+
+#uitvaartwinkelBtnNaarKassa{
+	float: right;
+	margin-top: 12px;
+	margin-right: 62px;
+}
+
+#uitvaartwinkelGroteAfbeeldingWrapper{
+	width: 1100px;
+	height: 730px;
+
+	z-index: 101;
+	position: absolute;
+}
+
+.overzichtScherm{
+	background-color: #F7F5F2;
+	border: 3px #CEBD9C solid;
+
+	position: absolute;
+
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+
+	margin-top: 20px;
+
+	z-index: 2;	
+}
+
+.sluitenKnop{
+	/*background-color: red;*/
+	width: 53px;
+	height: 53px;
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	/*margin-right: -26.5px;
+	margin-top: -26.5px;*/
+
+	background: url("../source/icons/sluiten-button.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	cursor: pointer;
+}
+
+.sluitenKnop:hover{
+	/*background-color: red;*/
+	width: 53px;
+	height: 53px;
+	float: right;
+	margin-top: 5px;
+	margin-right: 5px;
+	/*margin-right: -26.5px;
+	margin-top: -26.5px;*/
+
+	background: url("../source/icons/sluiten-hover-button.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#groteAfbeeldingContainer{
+	/*background-color: white;*/
+	width: 690px;
+	height: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+}
+
+#groteAfbeeldingBottomWrapper{
+	/*background-color: green;*/
+	width: 690px;
+	height: 65px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+#groteAfbeeldingTekst{
+	float: left;
+}
+
+#groteAfbeeldingBeschrijving{
+	/*background-color: orange;*/
+	font-size: 15px;
+	margin: 0px;
+	margin-top: 15px;
+}
+
+#groteAfbeeldingNummer{
+	/*background-color: pink;*/
+	font-size: 12px;
+	margin: 0px;
+	margin-top: 5px;
+
+}
+
+#groteAfbeeldingBottomWrapper form{
+	/*background-color: purple;*/
+	float: right;
+	height: 65px;
+	padding-top: 7px;
+}
+
+#txtOrderAantal{
+	width: 113.5px;
+	height: 35.6px;
+
+	-moz-border-radius: 5px;  /* Firefox */
+	-webkit-border-radius: 5px; /* Webkit-Browsers */
+	border-radius: 5px;
+	border-color: rgba(255, 255, 255, 0);
+
+	background-color: #E0D5C1;
+	color: #444444;
+	text-align: right;
+	padding-right: 5px;
+	padding-left: 5px;
+	
+}
+
+#uitvaartwinkelBtnSubmitOrder{
+	/*padding: 17.8px 23.6px 17.8px 23.6px !important;
+	font-size: 12px !important;
+	background-color: #3D3229;
+	color: #ffffff;
+
+	border-radius: 25px;
+	-moz-border-radius: 25px;
+	-webkit-border-radius: 25px;
+
+	border: none;
+	
+	cursor: pointer;*/
+
+	margin-left: 20px;
+}
+/*
+#uitvaartwinkelBtnSubmitOrder:hover{
+	background-color: #E0D5C1;
+}*/
+
+#uitvaartwinkelMainContentWrapper{
+	/*background-color: blue;*/
+
+	width: 1101.265px;
+	height: 652.913px;
+
+	margin: 0 auto;
+
+	margin-top: 70px;
+
+}
+
+#uitvaarwinkelTitelWrapper{
+	/*background-color: pink;*/
+	height: 71.4px;
+
+}
+
+#uitvaartwinkelTitel{
+	/*background-color: red;*/
+	color: #19191B;
+	font-size: 20px;
+
+	text-align: center;
+}
+
+#contentLinksWrapper{
+	/*background-color: brown;*/
+	width: 311.505px;
+	height: 525.6px;
+
+	position: relative;
+	float: left;
+
+	box-shadow: 2px 3px 4.9875px 0.0125px rgba(35, 31, 32, 0.15);
+}
+
+#bloemenWrapper{
+	background-color: #E0D5C1;
+	width: 311.505px;
+	height: 437.1px;
+	overflow: hidden;
+	position: relative;
+
+	/*height: 88.5px;*/
+
+	/*
+	position: absolute;
+	z-index: 1;
+	*/
+}
+
+#toonzaalWrapper{
+	background-color: #AFA083;
+
+	width: 311.505px;
+	height: 88.5px;
+	text-align: center;
+	overflow: hidden;
+	/*height: 437.1px;*/
+	
+	/*
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	*/
+}
+
+#bloemenTitel{
+	color: #19191B;
+	/*background-color: orange;*/
+
+	
+	margin: 0;
+	margin-top: 39.4px;
+
+	font-size: 20px;
+	text-align: center;
+	
+}
+
+#toonzaalTitel{
+	/*background-color: brown;*/
+	color: #19191B;
+
+	position: absolute;
+	margin: 0;
+	bottom: 0;
+	width: 100%;
+	margin-bottom: 29.4px;
+
+	font-size: 20px;
+	text-align: center;
+}
+
+#uitklappijlNaarBoven{
+	/*background-color: #ffcc00;*/
+
+	position: absolute;
+	bottom: 0;
+}
+
+#uitklappijlNaarBoven img{
+	display: block;
+}
+
+#bloemenTekst{
+	/*background-color: yellow;*/
+	color: #434343;
+
+	width: 260px;
+
+	font-size: 12px;
+	text-align: justify;
+
+	margin: 0 auto;
+
+	margin-top: 28px;
+}
+
+#bloemenTekst p{
+	padding-bottom: 10px;
+
+	line-height: 1.5;
+}
+
+#extraAfstandParagrafen{
+	/*background-color: green;*/
+	margin-top: 40px;
+}
+
+#toonzaalTekst{
+	/*background-color: pink;*/
+	color: #434343;
+
+	width: 260px;
+
+	font-size: 12px;
+	text-align: justify;
+
+	margin: 0 auto;
+	display: inline-block;
+	padding-top: 0px;
+	margin-top: -7px;
+
+	
+}
+
+#toonzaalTekst h1{
+	color: #19191B;
+
+	font-size: 12px;
+	font-weight: bold;
+
+	margin-bottom: 0px;
+}
+
+#toonzaalTekst p{
+	margin: 0;
+	padding: 0;
+}
+
+#contentRechtsWrapper{
+	background-color: #3D3229;
+	width: 789.76px;
+	height: 525.6px;
+
+	float: left;
+
+	box-shadow: 2px 3px 4.9875px 0.0125px rgba(35, 31, 32, 0.15);
+}
+
+.uitvaartwinkelAfbeeldingenContainer{
+	width: 250px;
+	height: 250px;
+
+	margin-top: 9px;
+	margin-left: 10px;
+	float: left;
+
+	overflow: hidden;
+
+	cursor: pointer;
+}
+
+.uitvaartwinkelAfbeeldingen{
+	/*background-color: orange;*/
+	width: 100%;
+	height: 100%;
+}
+
+.uitvaartwinkelAfbeeldingen::before{
+	content: "";
+	display: none;
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(240, 240, 240, 0.75);
+}
+
+.uitvaartwinkelAfbeeldingenContainer:hover .uitvaartwinkelAfbeeldingen, .uitvaartwinkelAfbeeldingenContainer:focus .uitvaartwinkelAfbeeldingen{
+	transform: scale(1.2);
+	-webkit-transition: all 3s;
+    -moz-transition: all 3s;
+    -o-transition: all 3s;
+    transition: all 3s;
+}
+
+.uitvaartwinkelAfbeeldingenContainer:hover .uitvaartwinkelAfbeeldingen:before, .uitvaartwinkelAfbeeldingenContainer:focus .uitvaartwinkelAfbeeldingen:before{
+	display: block;
+}
+
+.uitvaartwinkelAfbeeldingenTekst{
+	color: #19191B;
+	padding: 25%;
+	margin-top: 40px;
+	position: absolute;
+	display: none;
+	font-size: 20px;
+}
+
+.uitvaartwinkelAfbeeldingenContainer:hover span, .uitvaartwinkelAfbeeldingenContainer:focus span{
+	display: block;
+}
+
+/*
+#uitvaartwinkelAfbeelding1{
+	background: url("../source/afbeeldingen/uitvaartwinkel/bloemen/naturel1.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#uitvaartwinkelAfbeelding2{
+	background: url("../source/afbeeldingen/uitvaartwinkel/bloemen/naturel2.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#uitvaartwinkelAfbeelding3{
+	background: url("../source/afbeeldingen/uitvaartwinkel/bloemen/naturel3.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#uitvaartwinkelAfbeelding4{
+	background: url("../source/afbeeldingen/uitvaartwinkel/bloemen/naturel4.jpg") no-repeat;
+	background-position: center; 
+	background-size: cover;
+}
+
+#uitvaartwinkelAfbeelding5{
+	background: url("../source/afbeeldingen/uitvaartwinkel/bloemen/naturel5.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#uitvaartwinkelAfbeelding6{
+	background: url("../source/afbeeldingen/uitvaartwinkel/bloemen/naturel6.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+*/
+
+#uitvaartwinkelContentBottomWrapper{
+	/*background-color: orange;*/
+	width: 100%;
+	height: 55.913px;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+#uitvaartwinkelPijlLinks{	
+	background: url("../source/icons/vorige-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	width: 37px;
+	height: 37px;
+	display: inline-block;
+	margin-right: 15px;
+	margin-top: 18.913px;
+
+	cursor: pointer;
+}
+
+#uitvaartwinkelPijlLinks:hover{
+	background: url("../source/icons/vorige-brown-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#uitvaartwinkelPijlRechts{
+	background: url("../source/icons/volgende-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	width: 37px;
+	height: 37px;
+	display: inline-block;
+	margin-left: 15px;
+
+	cursor: pointer;
+}
+
+#uitvaartwinkelPijlRechts:hover{
+	background: url("../source/icons/volgende-brown-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#uitvaartwinkelWinkelmandWrapper{
+	/*background-color: red;*/
+	background: url("../source/icons/winkelmand-icon.png") no-repeat;
+	background-position: center;
+
+	margin-left: -64px;
+	width: 64px;
+	height: 100%;
+	float: right;
+
+	cursor: pointer;
+}
+/*
+#uitvaartwinkelWinkelmandWrapper:hover{
+	background-color: red;
+	background: url("../source/icons/winkelmand-hover-icon.png") no-repeat;
+	background-position: center;
+}
+*/
+#uitvaartwinkelWinkelmandAantal{
+	/*background-color: blue;*/
+	font-size: 12px;
+	text-align: center;
+	line-height: 20.235px;
+	overflow: hidden;
+	color: #434343;
+	width: 20.235px;
+	height: 20.235px;
+	float: right;
+	margin-top: 12px;
+	margin-right: -3px;
+
+	background-color: red;
+	background: url("../source/icons/winkelmand-mini-icon.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+/*
+#uitvaartwinkelWinkelmandAantal:hover{
+	background-color: red;
+	background: url("../source/icons/winkelmand-mini-hover-icon.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+}*/
+
+#kassaWrapper{
+	/*background-color: pink;*/
+	position: relative;
+
+	width: 100%;
+	height: 656px;
+
+	margin-top: 70px;
+}
+
+#kassaNav{
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+#kassaNav ul{
+	height: 30px;
+}
+
+#kassaNav ul li{
+	margin-top: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#kassaNav ul li a{
+	text-decoration: none;
+	cursor: default;
+}
+
+#bestellingOverzichtWrapper{
+	/*background-color: blue;*/
+
+	display: block;
+
+	/*margin-top: 30px;*/
+	font-size: 15px;
+}
+
+#bestellingenContentWrapper{
+	/*background-color: brown;*/
+	width: 900px;
+	height: 450px;
+
+	margin: 0 auto;
+
+	overflow: auto;
+}
+
+#bestellingOverzichtTitelsWrapper{
+	/*background-color: red;*/
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+#afbeeldingTitel{
+	/*background-color: orange;*/
+	display: inline-block;
+	width: 125px;
+	height: 100%;
+}
+
+.bestellingOverzichtTitels{
+	/*background-color: green;*/
+	display: inline-block;
+	margin-left: 6px;
+	width: 20%;
+	text-align: center;
+}
+
+.bestellingenProductWrapper{
+	margin-bottom: 10px;
+	height: 125px;
+	width: 100%;
+}
+
+#eerste{
+	/*background-color: #ffcc00;*/
+}
+#tweede{
+	/*background-color: #ccff00;*/
+}
+
+.bestellingenProductElements{
+	/*background-color: green;*/
+	float: left;
+
+	margin-left: 10px;
+	width: 20%;
+	height: 100%;
+}
+
+.bestellingenProductAfbeeldingContainer{
+	/*background-color: purple;*/
+	float: left;
+
+	width: 125px;
+	height: 125px;
+
+	text-align: center;
+	white-space: nowrap;
+}
+
+.helper{
+	display: inline-block;
+	height: 100%;
+	
+	vertical-align: middle;
+}
+
+.bestellingenProductAfbeeldingContainer img{
+	vertical-align: middle;
+	max-width:100%;
+	max-height:100%;
+}
+
+.bestellingenProductPrijsContainer{
+	text-align: center;
+}
+
+.bestellingenProductAantalContainer{
+	text-align: center;
+}
+
+.bestellingenProductTotaalPrijsContainer{
+	text-align: center;
+}
+
+.bestellingenProductAantal{
+	width: 30px;
+}
+
+.bestellingenAantalBevestigen{
+	background-color: blue;
+	width: 25px;
+	height: 25px;
+
+	display: inline-block;
+
+	margin-bottom: -7px;
+	margin-left: 3px;
+
+	cursor: pointer;
+}
+
+#bestellingenTotaalPrijsWrapper{
+	/*background-color: red;*/
+	width: 900px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+
+#bestellingenTotaalPrijsWrapper p{
+	/*background-color: purple;*/
+	width: 150px;
+	margin-top: 0px;
+	margin-bottom: 5px;
+}
+
+#bestellingenTotaalPrijsWrapper p span{
+	float: right;
+}
+
+#kassaformButtonWrapper{
+	position: absolute;
+	/*background-color: orange;*/
+
+	width: 900px;
+	
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+
+	text-align: right;
+	bottom: 0;
+}
+
+.kassaBtnSubmit{
+	margin-left: 10px;
+}
+
+#betaalmethodeFormElements{
+	/*background-color: pink;*/
+
+	width: 500px;
+	height: 300px;
+
+	margin: 0 auto;
+
+	margin-top: 225px;
+}
+
+.betaalmethodeOptionsContainer{
+	display: block;
+	margin-bottom: 10px;
+}
+
+#betaalmethodeLegend{
+	font-size: 15px;
+	margin-bottom: 10px; 
+}
+
+.betaalmethodeOptionsContainer label{
+	margin-left: 30px;
+	display: inline-block;
+	vertical-align: top;
+	font-size: 15px;
+	color: #434343;
+}
+
+.betaalmethodeOptionsContainer label span{
+	margin-left: 15px;
+	color: #8C8C8C;
+}
+
+#chkFactuur{
+	display: inline-block;
+}
+
+#gegevensWrapper{
+	/*background-color: orange;*/
+	width: 900px;
+	height: 300px;
+	margin: 0 auto;
+	/*margin-top: 225px;*/
+
+	font-size: 15px;
+	color: #434343;
+}
+
+.gegevensWrapperTopFieldsets{
+	width: 298px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	margin-right: -4px;
+	vertical-align: top;
+
+	/*border: 1px black solid;*/
+}
+
+.gegevensWrapperBottomFieldsets{
+	margin-top: 30px;
+}
+
+.gegevensWrapperElementsContainer{
+	display: block;
+	margin-bottom: 20px;
+}
+
+.gegevensInputElementsContainer{
+	float: right;
+	width: 160px;
+}
+
+#gegevensWrapper form label{
+	margin-left: 15px;
+}
+
+.gegevensInputElement{
+	float: left;
+}
+
+#gegevensFieldset{
+	width: 400px;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+#gegevensFieldset legend{
+	font-size: 15px;
+	margin-bottom: 15px;
+}
+
+
+/*---------------------------------------- FUNERARIUM EN AULA ----------------------------------------*/
+
+#funerarium{
+	background-color: #E0D5C1;
+	height: 723px;
+
+	z-index: 5;
+	position: relative;
+	overflow: hidden;
+}
+
+#funerariumWrapper{
+	/*background-color: red;*/
+	position: relative;
+
+	margin: 0 auto;
+	margin-top: 70px;
+
+	width: 1076px;
+	height: 594px;
+
+	z-index: 1;
+}
+
+#funerariumBackWrapper{
+	/*background-color: blue;*/
+	position: absolute;
+
+	display:flex;
+	justify-content:space-between;
+
+	width: 1044px;
+	height: 289px;
+
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+
+	z-index: 1;
+}
+
+.funerariumBackContentWrapper{
+	text-align: justify;
+	box-sizing: border-box; /* Ch, Saf 5.1+, IE 8+, Op 9+  */
+	color: #434343;
+
+	height: 289px;
+}
+
+#funerariumBackContentLeftWrapper{
+	/*background-color: orange;*/
+	overflow: hidden;
+
+	font-size: 12px;
+
+	padding-top: 39px;
+
+	width: 326px;
+}
+
+#funerariumBackContentCenterWrapper{
+	background-color: #3D3228;
+	position: relative;
+
+	margin-left: 110px;
+
+	font-size: 20px;
+	color: white;
+	text-align: center;
+
+	padding-top: 30px;
+
+	width: 222px;
+
+	box-shadow: 2px 3px 4.9875px 0.0125px rgba(35, 31, 32, 0.15);
+}
+
+#funerariumBackContentRightWrapper{
+	/*background-color: pink;*/
+
+	font-size: 12px;
+
+	padding-top: 72px;
+
+	width: 328px;
+}
+
+#funerariumFrontWrapper{
+	/*background-color: purple;*/
+	position: absolute;
+	display:flex;
+	justify-content:space-between;
+
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	margin-top: 182px;
+
+	width: 1076px;
+	height: 356px;
+
+	z-index: 2;
+}
+
+.funerariumKolomWrappers{
+	/*background-color: yellow;*/
+	/*white-space:nowrap;*/
+
+	width: 230px;
+	height: 356px;
+}
+
+
+.funerariumKolomTitel{
+	background-color: white;
+
+	text-align: center;
+	line-height: 39px;
+
+	width: 230px;
+	height: 39px;
+
+	box-shadow: 2px 3px 4.9875px 0.0125px rgba(35, 31, 32, 0.15);
+}
+
+.funerariumKolomTitel p{
+	font-size: 20px;
+	display: inline;
+}
+
+.funerariumKolomAfbeelding{
+	background-color: white;
+	position: absolute;
+
+	bottom: 0;
+
+	width: 230px;
+	height: 300px;
+
+	box-shadow: 2px 3px 4.9875px 0.0125px rgba(35, 31, 32, 0.15);
+}
+
+.funerariumKolomAfbeeldingContainer{
+	border: 4px solid #E8E8E7;
+	border-width: 3px;
+	border-style: solid;
+	-webkit-border-image: -webkit-gradient(linear, to bottom, #D9D8D8, #E8E8E7, #D9D8D8) 1 10%;
+	-webkit-border-image: -webkit-linear-gradient(to bottom, #D9D8D8, #E8E8E7, #D9D8D8) 1 10%;
+	-moz-border-image: -moz-linear-gradient(to bottom, #D9D8D8, #E8E8E7, #D9D8D8) 1 10%;
+	border-image: linear-gradient(to bottom, #D9D8D8, #E8E8E7, #D9D8D8) 1 10%;
+
+
+
+
+
+
+
+
+
+
+
+	/*-webkit-border-image: -webkit-gradient(linear, left top, left bottom, from(#E8E8E7), to(#fff), color-stop(0.5, #fff), color-stop(0.5, #66cc00)) 21 30 30 21 repeat repeat;*/
+
+	margin: 0 auto;
+	margin-top: 11px;
+
+	width: 190px;
+	height: 270px;
+
+	
+}
+
+/*
+.funerariumKolomAfbeelding img{
+	-webkit-clip-path: inset(30px 10px 30px 10px);
+	clip-path: inset(15px 20px 20px 15px);
+}
+*/
+/*
+#funerariumKolomEenAfbeeldingContainer{
+	background: url("../source/afbeeldingen/funerarium_en_aula/inkom_2.jpg") no-repeat;
+
+	background-position: center;
+	background-size: cover;
+}
+
+#funerariumKolomTweeAfbeeldingContainer{
+	background: url("../source/afbeeldingen/funerarium_en_aula/inkom_3.jpg") no-repeat;
+
+	background-position: center;
+	background-size: cover;
+}
+
+#funerariumKolomDrieAfbeeldingContainer{
+	background: url("../source/afbeeldingen/funerarium_en_aula/gedenkboek.jpg") no-repeat;
+
+	background-position: center;
+	background-size: cover;
+}
+
+#funerariumKolomVierAfbeeldingContainer{
+	background: url("../source/afbeeldingen/funerarium_en_aula/ontvangst.jpg") no-repeat;
+
+	background-position: center;
+	background-size: cover;
+}
+*/
+
+#funerariumBottomWrapper{
+	/*background-color: green;*/
+	width: 100%;
+	height: 56px;
+
+	position: absolute;
+	bottom: 0px;
+
+	text-align: center;
+}
+
+#funerariumPijlLinks{
+	background: url("../source/icons/vorige-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	width: 37px;
+	height: 37px;
+	display: inline-block;
+	margin-right: 15px;
+	margin-top: 9.5px;
+
+	cursor: pointer;
+}
+
+#funerariumPijlLinks:hover{
+	background: url("../source/icons/vorige-brown-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#funerariumPijlRechts{
+	background: url("../source/icons/volgende-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	width: 37px;
+	height: 37px;
+	display: inline-block;
+	margin-left: 15px;
+
+	cursor: pointer;
+}
+
+#funerariumPijlRechts:hover{
+	background: url("../source/icons/volgende-brown-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+/*
+#uitvaartwinkelContentBottomWrapper{
+	background-color: orange;
+	width: 100%;
+	height: 55.913px;
+	position: relative;
+	float: left;
+	text-align: center;
+}
+
+#uitvaartwinkelPijlLinks{
+	
+	background: url("../source/icons/vorige-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	width: 37px;
+	height: 37px;
+	display: inline-block;
+	margin-right: 15px;
+	margin-top: 18.913px;
+}
+
+#uitvaartwinkelPijlRechts{
+	background: url("../source/icons/volgende-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	width: 37px;
+	height: 37px;
+	display: inline-block;
+	margin-left: 15px;
+}
+
+*/
+
+/*---------------------------------------- CONDOLEREN ----------------------------------------*/
+
+/*----------CONDOLEREN LAATSTE UITVAARTEN----------*/
+
+#condoleren{
+	background-color: white;
+	height: 587px;
+
+	overflow: hidden;
+
+	text-align: center;
+
+	z-index: 4;
+	position: relative;
+}
+
+#condolerenContentWrapper{
+	/*background-color: red;*/
+
+	margin-top: 70px;
+
+	width: 1080px;
+	height: 457px;
+
+	display: inline-block;
+}
+
+#condolerenVorigeUitvaartenButton{
+	/*background-color: blue;*/
+
+	width: 30.8px;
+	height: 30.8px;
+
+	display: inline-block;
+
+	position: absolute;
+
+	margin-bottom: 60px;
+
+	vertical-align: top;
+
+	bottom: 0;
+
+	background: url("../source/icons/volgende-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	cursor: pointer;
+}
+
+#condolerenVorigeUitvaartenButton:hover{
+	background: url("../source/icons/volgende-brown-icon.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 30.8px;
+	height: 30.8px;
+}
+
+#condolerenLaatsteUitvaartenButton{
+	/*background-color: blue;*/
+
+	width: 30.8px;
+	height: 30.8px;
+
+	display: inline-block;
+
+	position: absolute;
+
+	margin-bottom: 60px;
+
+	vertical-align: top;
+
+	bottom: 0;
+
+	background: url("../source/icons/vorige-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	cursor: pointer;
+}
+
+#condolerenLaatsteUitvaartenButton:hover{
+	background: url("../source/icons/vorige-brown-icon.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 30.8px;
+	height: 30.8px;
+}
+
+.condolerenKolom{
+	/*background-color: pink;*/
+
+	float: left;
+
+	width: 270px;
+	height: 457px;
+
+	text-align: center;
+
+	position: relative;
+
+	font-size: 12px;
+	color: #434343;
+}
+
+.condolerenImageWrapper{
+	/*background-color: blue;*/
+
+	margin: 0 auto;
+
+	width: 230px;
+	height: 230px;
+
+	overflow: hidden;
+
+	text-align: center;
+
+	vertical-align: middle;
+}
+
+#condolerenImage1{
+	/*background: url("../source/afbeeldingen/condoleren/isabella.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;*/
+}
+
+#condolerenImage1{
+	/*background: url("../source/afbeeldingen/condoleren/lutgarde.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;*/
+}
+
+#condolerenImage1{
+	/*background: url("../source/afbeeldingen/condoleren/condoleren_huis_arijs_logo.png") no-repeat;
+	background-position: center;*/
+}
+
+#condolerenImage1{
+	/*background: url("../source/afbeeldingen/condoleren/jeanneke.jpg") no-repeat;
+	background-position: center;
+	background-size: cover;*/
+}
+
+#condolerenContentWrapper h1{
+	font-size: 20px;
+	color: #19191B;
+
+	margin-bottom: 2px;
+}
+
+#condolerenContentWrapper h2{
+	font-size: 15px;
+	color: #676767;
+
+	margin-top: 4px;
+	margin-bottom: 25px;
+}
+
+#condolerenContentWrapper p{
+	/*font-size: 12px;
+	color: #434343;*/
+}
+
+.condolerenWoonplaats{
+	margin-top: 25px;
+}
+
+.condolerenKolomBottomWrapper{
+	/*background-color: blue;*/
+
+	width: 230px;
+	height: 30px;
+
+	position: absolute;
+	left: 0; 
+	right: 0; 
+	margin-left: auto; 
+	margin-right: auto; 
+	
+	bottom: 0;
+
+	display:flex;
+	justify-content:space-between;
+}
+
+.condolerenIcons{
+	/*background-color: red;*/
+	height: 100%;
+	cursor: pointer;
+}
+
+.condolerenIcons.condolerenCondolerenIcon{
+	background: url("../source/icons/condoleren-icon.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 33px;
+}
+
+.condolerenIcons.condolerenRouwbriefIcon{
+	background: url("../source/icons/rouwbrief-icon.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 43px;
+}
+
+.condolerenIcons.condolerenBloemenIcon{
+	background: url("../source/icons/bloemen-icon.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 50px;
+}
+
+.condolerenIcons.condolerenCondolerenIcon:hover{
+	background: url("../source/icons/condoleren-highlighted-icon.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 33px;
+}
+
+.condolerenIcons.condolerenRouwbriefIcon:hover{
+	background: url("../source/icons/rouwbrief-highlighted-icon.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 43px;
+}
+
+.condolerenIcons.condolerenBloemenIcon:hover{
+	background: url("../source/icons/bloemen-highlighted-icon.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+	width: 50px;
+}
+
+/*----------CONDOLEREN VORIGE UITVAARTEN----------*/
+
+#condolerenVorigeUitvaartenPijlLinks{
+	/*background-color: red;*/
+
+	position: absolute;
+
+	margin-left: -47.5px;
+
+	width: 47.5px;
+	height: 21px;
+
+	top: 50%;
+
+	display: inline-block;
+
+	cursor: pointer;
+
+	background: url("../source/icons/pijl-links-icon.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+#condolerenVorigeUitvaartenPijlLinks:hover{
+	background: url("../source/icons/pijl-links-hover-icon.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+#condolerenVorigeUitvaartenMainContent{
+	/*background-color: blue;*/
+
+	width: 985px;
+	height: 457px;
+
+	display: inline-block;
+}
+
+#condolerenVorigeUitvaartenPijlRechts{
+	/*background-color: orange;*/
+
+	position: absolute;
+	
+	width: 47.5px;
+	height: 21px;
+
+	top: 50%;
+
+	vertical-align: center;
+
+	display: inline-block;
+
+	cursor: pointer;
+
+	background: url("../source/icons/pijl-rechts-icon.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+#condolerenVorigeUitvaartenPijlRechts:hover{
+	background: url("../source/icons/pijl-rechts-hover-icon.png") no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.condolerenVorigeUitvaartenVak{
+	width: 170px;
+	height: 210px;
+
+	float: left;
+
+	margin-left: 22.5px;
+	margin-top: 12.33px;
+
+	color: #19191B;
+
+}
+
+.condolerenVorigeUitvaartenVak.condolerenVorigeUitvaartenVakTop{
+	/*background-color: red;*/
+}
+
+.condolerenVorigeUitvaartenVak.condolerenVorigeUitvaartenVakBottom{
+	/*background-color: orange;*/
+}
+
+.condolerenVorigeUitvaartenFotoContainer{
+	/*background-color: pink;*/
+
+	width: 170px;
+	height: 170px;
+}
+
+.condolerenVorigeUitvaartenNaamContainer{
+	cursor: pointer;
+}
+
+
+/*----------CONDOLEREN FORM SELECTED----------*/
+
+/*.condolerenSelectedKolom{
+	background-color: pink;
+
+	float: left;
+
+	width: 270px;
+	height: 457px;
+
+	text-align: center;
+
+	position: relative;
+}*/
+
+.condolerenIcons.condolerenCondolerenIcon.condolerenCondolerenSelectedIcon{
+	background: url("../source/icons/condoleren-highlighted-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 33px;
+}
+
+#condolerenFormWrapper{
+	/*background-color: orange;*/
+	text-align: left;
+	width: 740px;
+	height: 457px;
+
+	float: right;
+
+	position: relative;
+}
+
+#condolerenFormWrapper h1{
+	margin: 0;
+	margin-bottom: 25px;   
+	font-weight: normal;
+	font-size: 20px;
+}
+
+#condolerenFormLeftWrapper{
+	background-color: #AFA083;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+
+	width: 368px;
+	/*height: 192px;*/
+	height: 212px;
+
+	padding-top: 1px;
+	padding-bottom: 5px;
+
+	padding-left: 3px;
+	padding-right: 3px;
+
+	margin: 0;
+
+	border: none;
+
+	float: left;
+}
+
+#condolerenFormWrapper label{
+	background-color: white;
+
+	color: #8C8C8C;
+	font-size: 15px;
+
+	display: inline-block;
+	width: 100px;
+	height: 26px;
+	
+	margin-top: -8px;
+	margin-bottom: 1px;
+
+	padding-top: 11px;
+	padding-bottom: 5px;
+	padding-left: 6px;
+
+	-moz-border-radius:2px;  /* Firefox */
+	-webkit-border-radius:2px; /* Webkit-Browsers */
+	border-radius:2px;
+}
+
+.condolerenFormTextboxes{
+	display: inline-block;
+	width: 247px;
+	height: 36px;
+	float: right;
+	margin-top: -8px;
+	margin-bottom: -5px;
+
+	background-color: #E0D5C1;
+
+	-moz-border-radius: 5px;  /* Firefox */
+	-webkit-border-radius: 5px; /* Webkit-Browsers */
+	border-radius: 5px;
+
+	border-color: rgba(255, 255, 255, 0);
+
+	color: #434343;
+}
+
+#txtNummer{
+	width: 100px;
+	margin-right: 147px;
+}
+
+#txtPostcode{
+	width: 100px;
+	margin-right: 147px;
+}
+
+#condolerenFormRightWrapper{
+	background-color: #AFA083;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+
+    width: 368px;
+    /*height: 192px;*/
+	height: 212px;
+
+	padding-top: 1px;
+	padding-bottom: 5px;
+
+	padding-left: 3px;
+	padding-right: 3px;
+
+	margin: 0;
+
+	border: none;
+
+	float: right;
+}
+
+#condolerenFormBottomWrapper{
+	background-color: #AFA083;
+	-moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+
+    float: left;
+
+    margin: 0;
+
+    margin-top: 4px;
+    margin-bottom: 54.5px;
+    width: 100%;
+
+    padding-top: 1px;
+	padding-bottom: 5px;
+
+	padding-left: 3px;
+	padding-right: 3px;
+
+	border: none;
+}
+
+#condolerenFormBottomWrapper label{
+	display: inline-block;
+	float: left;
+	margin-top: -8px;
+	margin-right: 3px;
+
+	display: inline-block;
+}
+
+#txtaBericht{
+	width: 619px;
+	height: 72px;
+
+	display: inline-block;
+
+	background-color: #E0D5C1;
+
+	-moz-border-radius: 5px;  /* Firefox */
+	-webkit-border-radius: 5px; /* Webkit-Browsers */
+	border-radius: 5px;
+
+	border-color: rgba(255, 255, 255, 0);
+
+	margin-top: -8px;
+
+	margin-bottom: -13px;
+
+	resize: none;
+
+	color: #434343;
+}
+
+#condolerenformButtonWrapper{
+	/*background-color: blue;*/
+
+	position: absolute; 
+	bottom: 0;
+	right: 0;
+}
+
+.btnTerug{
+	padding: 10.8px 27.6px 10.8px 27.6px !important;
+	font-size: 12px !important;
+	background-color: rgba(255, 255, 255, 0);
+	color: #19191B;
+
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+
+	border: 3px solid #3D3229;
+	
+	cursor: pointer;
+}
+
+.btnTerug:hover{
+	color: #AFA083;
+	border-color: #AFA083;
+}
+
+#condolerenBtnSubmit{
+	margin-left: 10px;
+}
+
+.btnSubmit{
+	padding: 13.8px 19.6px 13.8px 19.6px !important;
+	font-size: 12px !important;
+	background-color: #3D3229;
+	color: #ffffff;
+
+	border-radius: 15px;
+	-moz-border-radius: 15px;
+	-webkit-border-radius: 15px;
+
+	border: none;
+	
+	cursor: pointer;
+}
+
+.btnSubmit:hover{
+	background-color: #AFA083;
+}
+
+/*----------CONDOLEREN VORIGE UITVAARTEN----------*/
+
+
+/*---------------------------------------- OVER ONS ----------------------------------------*/
+
+#overons{
+	background-color: #E0D5C1;
+	height: 904px;
+
+	overflow: hidden;
+
+	z-index: 3;
+	position: relative;
+}
+
+#overonsContentWrapper{
+	/*background-color: blue;*/
+
+	margin: 0 auto;
+	margin-top: 70px;
+
+	display: flex;
+	justify-content: space-between;
+
+	width: 1088px;
+	height: 774px;
+}
+
+#overonsCreadWrapper{
+	background-color: #19191B;
+
+	width: 541px;
+	height: inherit;
+
+	box-shadow: 2px 3px 4.9875px 0.0125px rgba(35, 31, 32, 0.15);
+}
+
+#overonsCreadWrapper img{
+	width: 495px;
+	height: 700px;
+
+	display: block;
+    margin: 0 auto;
+	margin-top: 25px; 
+}
+
+#overonsCreadPijlenWrapper{
+	/*background-color: green;*/
+	width: 100%;
+	height: 49px;
+
+	text-align: center;
+}
+
+#overonsPijlLinks{
+	background: url("../source/icons/vorige-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	width: 37px;
+	height: 37px;
+	
+	display: inline-block;
+	margin-right: 15px;
+	margin-top: 6px;
+
+	cursor: pointer;
+}
+
+#overonsPijlLinks:hover{
+	background: url("../source/icons/vorige-brown-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#overonsPijlRechts{
+	background: url("../source/icons/volgende-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	width: 37px;
+	height: 37px;
+	display: inline-block;
+	margin-left: 15px;
+
+	cursor: pointer;
+}
+
+#overonsPijlRechts:hover{
+	background: url("../source/icons/volgende-brown-icon.png") no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+#overonsTekstWrapper{
+	/*background-color: orange;*/
+
+	align-self: center;
+
+	width: 507px;
+	height: 718px;
+
+	font-size: 12px;
+	color: #434343;
+
+	text-align: justify;
+}
+
+#overonsTekstWrapper h1{
+	font-size: 15px;
+	color: #19191B;
+
+	margin-top: 0;
+}
+
+#overonsTekstWrapper p{
+	margin-bottom: 25px; 
+}
+
+#overonsTekstWrapper ul li{
+	margin-bottom: 6px;
+}
+
+/*---------------------------------------- CONTACT ----------------------------------------*/
+/*
+#contact{
+	background-color: white;
+	height: 575px;
+
+	overflow: hidden;
+}
+
+#contactContentWrapper{
+	background-color: orange;
+	margin: 0 auto;
+	margin-top: 70px;
+	margin-bottom: 60px;
+
+	width: 1070px;
+	height: 445px;
+
+	text-align: center;
+}
+
+#map{
+	background-color: grey;
+
+	display: inline-block;
+	
+	width: 445px;
+	height: 445px;
+
+	float: left;
+}
+
+#contactCenterWrapper{
+	background-color: red;
+
+	margin: 0 auto;
+
+	width: 350px;
+	height: 100%;
+
+	display: inline-block;
+
+}
+
+#contactRightWrapper{
+	background-color: yellow;
+	
+	width: 233px;
+	height: 100%;
+
+	display: inline-block;
+
+	float: right;
+}
+*/
+
+
+.section_contact
+{
+	position: relative;
+	height: auto;
+}
+
+#map
+{
+	width: 100%;
+	height: 540px;
+    margin: 0;
+    position: relative;
+}
+
+#map img
+{
+    max-width: none;
+}
+
+.maptogglebtn
+{
+    font: 100 0.9em/0.9em Helvetica;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+#laden
+{
+    font: 100 1em/1em Helvetica;
+    position: absolute;
+    width: 300px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    margin-left: -150px;
+    margin-top: -50px;
+    background-color: #ffffff;
+    z-index: 5;
+    box-shadow: 0 5px 10px #777;
+    display: none;
+}
+
+#laden img
+{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 30px;
+    height: 30px;
+}
+
+#laden span
+{
+    margin-left: 10px;
+}
+
+.next_section
+{
+    position: absolute;
+    width: 30px;
+    height: 34px;
+	bottom: 45px;
+	left: 50%;
+	margin-left: -15px;
+    background: url("../images/delhaize/next_scroller.png") 0 2px no-repeat;
+    background-size: 100%;
+}
+
+.next_section:hover{
+    transition: opacity 200ms ease-in-out;
+    opacity: 1;
+    background-position: 0 -30px;
+    cursor: pointer;
+}
+
+.next_section_white
+{
+    position: relative;
+    width: 30px;
+    height: 34px;
+	bottom: 45px;
+	left: 50%;
+	margin-left: -15px;
+    background: url("../images/delhaize/next_scroller.png") 0 2px no-repeat;
+    background-size: 100%;
+}
+
+.next_section_white:hover{
+    transition: opacity 200ms ease-in-out;
+    opacity: 1;
+    background-position: 0 -30px;
+    cursor: pointer;
+}
+
+.next_section_white_empty
+{
+    position: relative;
+    width: 30px;
+    height: 34px;
+	top: 45px;
+	left: 50%;
+	margin-left: -15px;
+    background: url("../images/delhaize/next_scroller.png") 0 2px no-repeat;
+    background-size: 100%;
+}
+
+.next_section_white_empty:hover{
+    transition: opacity 200ms ease-in-out;
+    opacity: 1;
+    background-position: 0 -30px;
+    cursor: pointer;
+}
+
+.next_section_green
+{
+    position: absolute;
+    width: 30px;
+    height: 34px;
+	bottom: 45px;
+	left: 50%;
+	margin-left: -15px;
+    background: url("../images/delhaize/next_scroller.png") 0 2px no-repeat;
+    background-size: 100%;
+}
+
+.next_section_green:hover{
+    transition: opacity 200ms ease-in-out;
+    opacity: 1;
+    background-position: 0 -30px;
+    cursor: pointer;
+}
+
+#contact .contentmid {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+#contact #result_item
+{
+	padding: 0;
+}
+
+#folder-promo {
+    background: none;
+    margin-bottom: 150px;
+}
+
+#folder-promo img {
+    max-width: 110%;
+}
+
+#folder-promo .contentmid {
+    width: 100%;
+    padding:0;
+}
+
+#folder-promo .contentmid #result_item .content{
+    overflow: hidden;
+    width: 100%; 
+    height: 400px;  /* Voor 3 plankjes */
+    /*height: 290px;*/  /* Voor 2 plankjes */
+}
+
+#folder-promo .contentmid #result_item .content iframe{
+    width: 100%;
+    height: 100%;
+    /*height: 650px;  Voor 3 plankjes*/  
+    /*height: 480px;*/
+    margin-top: -110px; 
+}
+
+/*------------------------------------------------------------------------------*/
+
+/*----------------------- nieuwe design ----------------------------------------*/
+
+.contact_info
+{
+	margin-top: 25px;
+	font-size: 15px;
+	color: #5D5D5D;
+	position: relative;
+}
+
+.contact_info .icons
+{
+	max-width: 30px;
+	float: right;
+	margin-right: 20px;
+}
+
+.iconwrapper
+{
+	position: absolute;
+    top: 50%;
+    margin-top: -15px;
+}
+
+.contact_item
+{
+	margin-bottom: 30px;
+	display: table;
+}
+
+.icon_txt_blok
+{
+	display: table;
+	margin-top: 18px;
+	padding-left: 20%;
+}
+
+.icons
+{
+	display: table-cell;
+	vertical-align: middle;
+	width: 30px;
+	height: 30px;
+}
+
+.icons img
+{
+	max-width: 30px;
+}
+
+.icon_txt
+{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 15px;
+	padding-left: 20px;
+}
+
+.contact_btn_group
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	margin-right: -25px;
+}
+
+.contact_btn
+{
+	height: 35px;
+	background-color: #5D5D5D;
+	border-bottom: 1px solid #fff;
+}
+
+.contact_btn:hover
+{
+	background-color: #3D3D3D;
+}
+
+.contact_btn_icon
+{
+	line-height: 32px;
+	text-align: right;
+}
+
+.contact_btn_icon img
+{
+	max-width: 25px;
+}
+
+.contact_btn_text
+{
+	color: #fff;
+	z-index: 999;
+	line-height: 35px;
+	font-size: 16px;
+	text-align: center;
+}
+
+.emailbtn
+{
+	width: 100%;
+	background-color: #5d5d5d;
+}
+
+.emailbtn:hover
+{
+	background-color: #333;
+}
+
+#facebook-icon
+{
+	background-image: url('../images/facebook-icon.png');
+	height: 25px;
+	width: 25px;
+	background-size: 25px 25px;
+	float: right;
+	background-repeat: no-repeat;
+	margin-top: 4px;
+}
+
+.facebook-btn:hover #facebook-icon
+{
+	background-image: url('../images/facebook-icon-hover.png');
+}
+
+#twitter-icon
+{
+	background-image: url('../images/twitter-icon.png');
+	height: 25px;
+	width: 25px;
+	background-size: 25px 25px;
+	float: right;
+	background-repeat: no-repeat;
+	margin-top: 4px;
+}
+
+.twitter-btn:hover #twitter-icon
+{
+	background-image: url('../images/twitter-icon-hover.png');
+}
+
+#google-icon
+{
+	background-image: url('../images/google-plus-icon.png');
+	height: 25px;
+	width: 25px;
+	background-size: 25px 25px;
+	float: right;
+	background-repeat: no-repeat;
+	margin-top: 4px;
+}
+
+.google-btn:hover #google-icon
+{
+	background-image: url('../images/google-plus-icon-hover.png');
+}
+
+#pinterest-icon
+{
+	background-image: url('../images/pintrest-icon.png');
+	height: 25px;
+	width: 25px;
+	background-size: 25px 25px;
+	float: right;
+	background-repeat: no-repeat;
+	margin-top: 4px;
+}
+
+.pinterest-btn:hover #pinterest-icon
+{
+	background-image: url('../images/pintrest-icon-hover.png');
+}
+
+#linkedin-icon
+{
+	background-image: url('../images/linkedin-icon.png');
+	height: 25px;
+	width: 25px;
+	background-size: 25px 25px;
+	float: right;
+	background-repeat: no-repeat;
+	margin-top: 4px;
+}
+
+.linkedin-btn:hover #linkedin-icon
+{
+	background-image: url('../images/linkedin-icon-hover.png');
+}
+
+#youtube-icon
+{
+	background-image: url('../images/youtube-icon.png');
+	height: 25px;
+	width: 25px;
+	background-size: 25px 25px;
+	float: right;
+	background-repeat: no-repeat;
+	margin-top: 4px;
+}
+
+.youtube-btn:hover #youtube-icon
+{
+	background-image: url('../images/youtube-icon-hover.png');
+}
+
+#skype-icon
+{
+	background-image: url('../images/skype-icon.png');
+	height: 25px;
+	width: 25px;
+	background-size: 25px 25px;
+	float: right;
+	background-repeat: no-repeat;
+	margin-top: 4px;
+}
+
+.skype-btn:hover #skype-icon
+{
+	background-image: url('../images/skype-icon-hover.png');
+}
+
+#bpost-icon
+{
+	background-image: url('../images/bpost.png');
+	height: 25px;
+	width: 25px;
+	background-size: 25px 25px;
+	float: right;
+	background-repeat: no-repeat;
+	margin-top: 4px;
+}
+
+.bpost-btn:hover #bpost-icon
+{
+	background-image: url('../images/bpost-hover.png');
+}
+
+#kiala-icon
+{
+	background-image: url('../images/kiala-icon.png');
+	height: 25px;
+	width: 25px;
+	background-size: 25px 25px;
+	float: right;
+	background-repeat: no-repeat;
+	margin-top: 4px;
+}
+
+.hoek_rechts_grijs img
+{
+	height: 10px;
+	width: 10px;
+	float: right;
+	margin-top: -1px;
+}
+
+.openingsuren_container
+{
+	float: left !important;
+	margin-bottom: 25px;
+}
+
+.openingsuren
+{
+	width: 100%;
+	border: none;
+	color: #5D5D5D;
+}
+
+.openingsuren th
+{
+	font-family: "netto-ot-bold",Helvetica,Arial,sans-serif;
+	text-align: left;
+	border-bottom:solid 2px #5D5D5D; 
+	font-weight:bold; 
+	padding: 0;
+	padding-right: 15px;
+}
+
+.openingsuren td
+{
+	padding: 7px 7px 7px 0 !important;
+}
+
+.openingsuren tr
+{
+	border-bottom: 1px solid #5D5D5D;
+}
+
+.openingsuren select
+{
+	-moz-appearance:none;
+	cursor: pointer;
+	margin: 0;
+	background-color: #5D5D5D;
+	color: #fff;
+	border-color: #5D5D5D;
+	height: 25px;
+	padding: 0;
+	padding-left: 10px;
+	background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA8AAAAGCAYAAAAc2cSCAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAEJJREFUeNpi/P//vwIDAwMIEwIfGBkZL6CIADUbAPH7//gBSN4Aq5EEDMCtkQgDAhiIAVADkEECAykApIFYjQABBgAkfIjASqxCGAAAAABJRU5ErkJggg==);
+	background-repeat: no-repeat;
+}
+
+.openingsuren select:focus
+{
+	outline: 0;
+}
+
+option
+{
+	text-align: left;
+	padding-left: 10px;
+}
+
+.openingsuren .td_dag
+{
+	font-family: "netto-ot-bold",Helvetica,Arial,sans-serif;
+	padding-left: 10px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------- FOOTER ----------------------------------------*/
+
+footer{
+	background-color: #AFA083;
+	height: 295.7px;
+
+	overflow: hidden;
+}
+
+#footerImageWrapper{
+	/*background-color: orange;*/
+	
+	margin: 0 auto;
+	margin-top: 70px;
+	
+	width: 1115px;
+	height: 118px;
+
+	text-align: center;
+}
+
+#footerTekstWrapper{
+	/*background-color: pink;*/
+
+	margin: 0 auto;
+	margin-top: 40px;
+
+	width: 1115px;
+	height: 13px;
+
+	font-size: 12px;
+
+	color: white;
+}
+
+#footerTekstWrapper a{
+	text-decoration: none;
+	color: white;
+
+}
+
+#footerTekstWrapper a:hover{
+	text-decoration: underline;
+}
+
+.footerTekstLinks{
+	margin-right: 40px;
+}
+
+.footerTekstRechts{
+	float: right;
+	margin-left: 40px;
+}

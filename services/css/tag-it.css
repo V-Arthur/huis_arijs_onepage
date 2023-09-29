@@ -1,0 +1,95 @@
+.navbar { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;}
+.not-active {
+   pointer-events: none;
+   cursor: default;
+}
+#search {margin-left:14%}
+#search, #location { max-width:30% }
+.form-control { display:inline; margin-left:1%;max-width:100px;/*10%;*/}
+.btn {  margin-left: 1%; background-color:#FCE801;border-color:#eedb02;color:#6E6D6D;}
+.ui-autocomplete { max-height:300px; width:250px; overflow: scroll;}
+.banners { width:95%;min-width:98%;min-height:20%;margin-bottom:0.5px;margin-left:1%; }
+.pagination {margin-left:1%;}
+.title{ margin-left:1%; font-size:12px }
+.loading { display:none;overflow: hidden;}
+
+.image {
+    width:8%;
+    height:10%;
+    max-height:150px;
+    max-width:150px;
+}
+ul.tagit {
+    padding: 1px 5px;
+    overflow: scroll;
+   // margin-left: inherit; /* usually we don't want the regular ul margins. */
+   // margin-right: inherit;
+     margin-top:10px;
+     margin-left:1%;
+     border:1px solid #cccccc;
+}
+ul.tagit li {
+    display: block;
+    float: left;
+    margin: 2px 5px 2px 0;
+}
+ul.tagit li.tagit-choice {
+    position: relative;
+    line-height: inherit;
+    width: auto;
+    overflow: hidden;
+}
+input.tagit-hidden-field {
+    display: none;
+}
+ul.tagit li.tagit-choice-read-only {
+    padding: .2em .5em .2em .5em;
+}
+
+ul.tagit li.tagit-choice-editable {
+    padding: .2em 18px .2em .5em;
+}
+
+ul.tagit li.tagit-new {
+    padding: .25em 4px .25em 0;
+}
+
+ul.tagit li.tagit-choice a.tagit-label {
+    cursor: pointer;
+    text-decoration: none;
+}
+ul.tagit li.tagit-choice .tagit-close {
+    cursor: pointer;
+    position: absolute;
+    right: .1em;
+    top: 50%;
+    margin-top: -8px;
+    line-height: 17px;
+}
+/* used for some custom themes that don't need image icons */
+ul.tagit li.tagit-choice .tagit-close .text-icon {
+    display: none;
+}
+
+ul.tagit li.tagit-choice input {
+    display: block;
+    float: left;
+    margin: 2px 5px 2px 0;
+}
+ul.tagit input[type="text"] {
+    -moz-box-sizing:    border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing:         border-box;
+
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: inherit;
+    background-color: inherit;
+    outline: none;
+}

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<producten>
+	<product>
+		<id>00</id>
+		<beschrijving>Zijden nr 1</beschrijving>
+		<prijs>65</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/bloemen/zijden1.jpg</url>
+		<categorie>bloem</categorie>
+	</product>
+	<product>
+		<id>01</id>
+		<beschrijving>Zijden nr 2</beschrijving>
+		<prijs>70</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/bloemen/zijden2.jpg</url>
+		<categorie>bloem</categorie>
+	</product>
+	<product>
+		<id>02</id>
+		<beschrijving>Zijden nr 3</beschrijving>
+		<prijs>66</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/bloemen/zijden3.jpg</url>
+		<categorie>bloem</categorie>
+	</product>
+	<product>
+		<id>03</id>
+		<beschrijving>Zijden nr 4</beschrijving>
+		<prijs>72</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/bloemen/zijden4.jpg</url>
+		<categorie>bloem</categorie>
+	</product>
+	<product>
+		<id>04</id>
+		<beschrijving>Zijden nr 5</beschrijving>
+		<prijs>75</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/bloemen/zijden5.jpg</url>
+		<categorie>bloem</categorie>
+	</product>
+	<product>
+		<id>05</id>
+		<beschrijving>Zijden nr 6</beschrijving>
+		<prijs>68</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/bloemen/zijden6.jpg</url>
+		<categorie>bloem</categorie>
+	</product>
+	<product>
+		<id>06</id>
+		<beschrijving>Zijden nr 7</beschrijving>
+		<prijs>75</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/bloemen/zijden7.jpg</url>
+		<categorie>bloem</categorie>
+	</product>
+	<product>
+		<id>07</id>
+		<beschrijving>Naturel nr 1</beschrijving>
+		<prijs>76</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/bloemen/naturel1.jpg</url>
+		<categorie>bloem</categorie>
+	</product>
+	<product>
+		<id>08</id>
+		<beschrijving>Naturel nr 2</beschrijving>
+		<prijs>71</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/bloemen/naturel2.jpg</url>
+		<categorie>bloem</categorie>
+	</product>
+	<product>
+		<id>09</id>
+		<beschrijving>Naturel nr 3</beschrijving>
+		<prijs>67</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/bloemen/naturel3.jpg</url>
+		<categorie>bloem</categorie>
+	</product>
+	<product>
+		<id>010</id>
+		<beschrijving>Naturel nr 4</beschrijving>
+		<prijs>78</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/bloemen/naturel4.jpg</url>
+		<categorie>bloem</categorie>
+	</product>
+	<product>
+		<id>011</id>
+		<beschrijving>Naturel nr 5</beschrijving>
+		<prijs>65</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/bloemen/naturel5.jpg</url>
+		<categorie>bloem</categorie>
+	</product>
+	<product>
+		<id>012</id>
+		<beschrijving>Naturel nr 6</beschrijving>
+		<prijs>69</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/bloemen/naturel6.jpg</url>
+		<categorie>bloem</categorie>
+	</product>
+	<product>
+		<id>013</id>
+		<beschrijving>Naturel nr 7</beschrijving>
+		<prijs>73</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/bloemen/naturel7.jpg</url>
+		<categorie>bloem</categorie>
+	</product>
+
+	<product>
+		<id>10</id>
+		<beschrijving>Asjuwelen</beschrijving>
+		<prijs>65</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/toonzaal/asjuwelen.jpg</url>
+		<categorie>toonzaal</categorie>
+	</product>
+	<product>
+		<id>11</id>
+		<beschrijving>Beertje en bloemen</beschrijving>
+		<prijs>70</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/toonzaal/beertje-en-bloemen.jpg</url>
+		<categorie>toonzaal</categorie>
+	</product>
+	<product>
+		<id>12</id>
+		<beschrijving>Fotoblokken</beschrijving>
+		<prijs>66</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/toonzaal/fotoblokken.jpg</url>
+		<categorie>toonzaal</categorie>
+	</product>
+	<product>
+		<id>13</id>
+		<beschrijving>Fotokaders</beschrijving>
+		<prijs>72</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/toonzaal/fotokaders.jpg</url>
+		<categorie>toonzaal</categorie>
+	</product>
+	<product>
+		<id>14</id>
+		<beschrijving>Gedenkstenen</beschrijving>
+		<prijs>75</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/toonzaal/gedenkstenen.jpg</url>
+		<categorie>toonzaal</categorie>
+	</product>
+	<product>
+		<id>15</id>
+		<beschrijving>Kisten</beschrijving>
+		<prijs>68</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/toonzaal/kisten.jpg</url>
+		<categorie>toonzaal</categorie>
+	</product>
+	<product>
+		<id>16</id>
+		<beschrijving>Kisten toonzaal</beschrijving>
+		<prijs>75</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/toonzaal/kisten-toonzaal.jpg</url>
+		<categorie>toonzaal</categorie>
+	</product>
+	<product>
+		<id>17</id>
+		<beschrijving>Kruisjes</beschrijving>
+		<prijs>76</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/toonzaal/kruisjes.jpg</url>
+		<categorie>toonzaal</categorie>
+	</product>
+	<product>
+		<id>18</id>
+		<beschrijving>Lantaarns</beschrijving>
+		<prijs>71</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/toonzaal/lantaarns.jpg</url>
+		<categorie>toonzaal</categorie>
+	</product>
+	<product>
+		<id>19</id>
+		<beschrijving>Laserfoto</beschrijving>
+		<prijs>67</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/toonzaal/laserfoto.jpg</url>
+		<categorie>toonzaal</categorie>
+	</product>
+	<product>
+		<id>110</id>
+		<beschrijving>Sierunes</beschrijving>
+		<prijs>78</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/toonzaal/sierurnes.jpg</url>
+		<categorie>toonzaal</categorie>
+	</product>
+	<product>
+		<id>111</id>
+		<beschrijving>Toonzaal</beschrijving>
+		<prijs>65</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/toonzaal/toonzaal.jpg</url>
+		<categorie>toonzaal</categorie>
+	</product>
+	<product>
+		<id>112</id>
+		<beschrijving>Urnes</beschrijving>
+		<prijs>69</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/toonzaal/urnes.jpg</url>
+		<categorie>toonzaal</categorie>
+	</product>
+	<product>
+		<id>113</id>
+		<beschrijving>Urneveldplaat met vaas en flutte</beschrijving>
+		<prijs>73</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/toonzaal/urneveldplaat-met-vaas-en-flutte.jpg</url>
+		<categorie>toonzaal</categorie>
+	</product>
+	<product>
+		<id>114</id>
+		<beschrijving>Vaasjes</beschrijving>
+		<prijs>73</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/toonzaal/vaasjes.jpg</url>
+		<categorie>toonzaal</categorie>
+	</product>
+	<product>
+		<id>115</id>
+		<beschrijving>Vingerafdruk</beschrijving>
+		<prijs>73</prijs>
+		<url>source/afbeeldingen/uitvaartwinkel/toonzaal/vingerafdruk.jpg</url>
+		<categorie>toonzaal</categorie>
+	</product>
+	
+</producten>
+
+

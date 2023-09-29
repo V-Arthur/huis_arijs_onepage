@@ -1,0 +1,88 @@
+algemeen:
+- pas font aan
+- minimum width?
+- website werkt niet als je zoomt?
+- wrapper toevoegen	http://stackoverflow.com/questions/26226188/when-zooming-out-my-website-everything-looks-wrong
+http://zomigi.com/blog/why-browser-zoom-shouldnt-kill-flexible-layouts/
+https://www.tibobeijen.nl/blog/2009/03/07/web-browser-zoom-design-consequences/
+- kijk alle font kleuren na
+- in plaats van with achtergrond, licht grijs of iets anders?
+- kijk font size na
+- divs vervangen met andere zaken? zie html5 flowchart
+- hover tekst wanneer je over een link gaat? bv bij condoleren
+- error weergeven als met database niet verbonden kan worden
+- error handling?
+	- als afbeelding niet beschikbaar is, toon huis arijs logo
+- php security? zie stackoverflow
+- ajax loading screen? http://stackoverflow.com/questions/28599128/how-to-add-a-loading-screen-when-doing-a-ajax-call-in-phonegap
+	https://www.w3schools.com/howto/howto_css_loader.asp
+- afbeeldingen scrollen is niet zo mooi, zorg dat het aan het einde naar begin springt ipv door te gaan naar begin
+- <noscript></noscript>
+	https://www.sitepoint.com/community/t/how-much-i-need-to-consider-the-seneraio-of-javascript-disabled/117498/3
+- box shadow
+	-webkit-box-shadow:
+	-moz-box-shadow: 
+- huis arijs logo in de nav is een beetje blurry?
+- vervang alert berichten met een eigen bericht venster
+
+----------header (nav):
+----moet
+
+----extra
+- pas de underline aan, met ::after werkt niet, gebruik een background image?
+- wanneer op een nav geklikt, laat de underline staan
+- breedte van de link elementen versmallen?
+
+
+
+----------banner
+
+----------voorzorg
+----moet
+- display:flex;
+  justify-content:space-between;
+
+----extra
+- tekst bij links aanpassen? "je kan" lijkt een beetje overbodig
+
+----------uitvaartwinkel
+----moet
+- bij toevoegen in winkelmand toon een bevestiging
+- alle afbeeldingen per categorie worden altijd ingeladen -> trage performantie? de sql query aanpassen? herhaal database vak?
+- fallback kleur en afbeelding als er geen afbeelding is voor product
+- bij besteloverzicht mogelijkheid geven om item te verwijderen
+- telefoon validatie verbeteren: duidelijk maken of er tekens gebruikt mogen worden of niet, landnummer of niet, en een voorbeeld geven
+- nummer onder straat zetten
+- datum begrafenis: zien dat je volgend jaar wel kan invullen? wat als het eind december is bv?
+- setOrderTabel(php): wat als de prijs veranders tussen winkelmand overzicht en bestelling plaatsen?
+- cookie(winkelmand) leegmaken nadat er een bestelling is geplaatst
+- er wordt niet verzonden dus verzending weglaten (ook in database)
+
+----extra
+- als men bij condoleren op winkel klikt eventueel bij Gegevens naam van overledene automatisch invullen
+
+----------funerarium
+----moet
+- moet op afbeelding kunnen klikken om groter te zien
+
+----------condoleren
+----moet
+- textbox padding toevoegen
+- regex voor geboorte en overleden datum
+- in indexData zorg dat laatste overledene opgehaald worden met ORDER BY op overledeneId en NIET op datumOverlijden
+- als er geen titel is dan gaat de tekst eronder iets naar boven, fix dit
+- regex telefoon werkt niet?
+
+----extra
+- zorg dat getLaatsteOverledeneFoto foto's opgehaald worden volgens id zoals bij getOverledeneFoto
+
+----------overons
+----moet
+- border rond cread
+
+
+
+
+
+
+

@@ -1,0 +1,23 @@
+body {
+    margin:10;padding:0;font-size:100%;color:#333333;background-color:#E2E2E2;font-family:'Courier New', Courier, monospace;
+}
+.goog-te-gadget-simple {
+    width:155px; font-size:14px;color:#333333;
+}
+a {
+    text-decoration: none;color:#666;font-weight:bold
+}
+.goog-te-gadget-simple span {
+    background-color:#ffffff
+}
+p ,.goog-te-gadget-simple,.goog-te-gadget-simple span,.google_translate_element, iframe.goog-te-menu-frame.skiptranslate,.goog-te-menu-frame {
+    background-color: #000000;font-family: 'Courier New', Courier, monospace; color: #DEDEDC; font-weight: bold;  font-size:14px
+}
+.url a:hover {
+    color: deeppink
+}
+#loading {
+    /*overflow-y: scroll;*/ vertical-align: middle; background-color: #000000; height:460px; width:840px;font-family: 'Courier New', Courier, monospace; color: #DEDEDC; font-weight: bold;  font-size:14px;
+    overflow:hidden;cursor:text
+   
+}

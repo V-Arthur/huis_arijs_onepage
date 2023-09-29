@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<afbeeldingen title="Funerarium en Aula afbeeldingen">
+	<afbeelding id="0">
+		<afbeeldingID>0</afbeeldingID>
+		<titel>Aula</titel>
+		<url id="test">source/afbeeldingen/funerarium_en_aula/aula_1.jpg</url>
+	</afbeelding>
+
+	<afbeelding id="1">
+		<afbeeldingID>1</afbeeldingID>
+		<titel>Aula</titel>
+		<url>source/afbeeldingen/funerarium_en_aula/aula_2.jpg</url>
+	</afbeelding>
+
+	<afbeelding id="2">
+		<afbeeldingID>2</afbeeldingID>
+		<titel>Aula</titel>
+		<url>source/afbeeldingen/funerarium_en_aula/aula_3.jpg</url>
+	</afbeelding>
+
+	<afbeelding id="3">
+		<afbeeldingID>3</afbeeldingID>
+		<titel>Aula</titel>
+		<url>source/afbeeldingen/funerarium_en_aula/aula_4.jpg</url>
+	</afbeelding>
+
+	<afbeelding id="4">
+		<afbeeldingID>4</afbeeldingID>
+		<titel>Begroetruimte</titel>
+		<url>source/afbeeldingen/funerarium_en_aula/begroetruimte.jpg</url>
+	</afbeelding>
+
+	<afbeelding id="5">
+		<afbeeldingID>5</afbeeldingID>
+		<titel>Begroetruimte lelie</titel>
+		<url>source/afbeeldingen/funerarium_en_aula/begroetruimte_lelie.jpg</url>
+	</afbeelding>
+
+	<afbeelding id="6">
+		<afbeeldingID>6</afbeeldingID>
+		<titel>Begroetruimte orchidee</titel>
+		<url>source/afbeeldingen/funerarium_en_aula/begroetruimte_orchidee.jpg</url>
+	</afbeelding>
+
+	<afbeelding id="7">
+		<afbeeldingID>7</afbeeldingID>
+		<titel>Gedenkboek</titel>
+		<url>source/afbeeldingen/funerarium_en_aula/gedenkboek.jpg</url>
+	</afbeelding>
+
+	<afbeelding id="8">
+		<afbeeldingID>8</afbeeldingID>
+		<titel>Inkom</titel>
+		<url>source/afbeeldingen/funerarium_en_aula/inkom_1.jpg</url>
+	</afbeelding>
+
+	<afbeelding id="9">
+		<afbeeldingID>9</afbeeldingID>
+		<titel>Inkom</titel>
+		<url>source/afbeeldingen/funerarium_en_aula/inkom_2.jpg</url>
+	</afbeelding>
+
+	<afbeelding id="10">
+		<afbeeldingID>10</afbeeldingID>
+		<titel>Inkom</titel>
+		<url>source/afbeeldingen/funerarium_en_aula/inkom_3.jpg</url>
+	</afbeelding>
+
+	<afbeelding id="11">
+		<afbeeldingID>11</afbeeldingID>
+		<titel>Iris</titel>
+		<url>source/afbeeldingen/funerarium_en_aula/iris.jpg</url>
+	</afbeelding>
+
+	<afbeelding id="12">
+		<afbeeldingID>12</afbeeldingID>
+		<titel>Ontmoetingsruimte</titel>
+		<url>source/afbeeldingen/funerarium_en_aula/ontmoetingsruimte.jpg</url>
+	</afbeelding>
+
+	<afbeelding id="13">
+		<afbeeldingID>13</afbeeldingID>
+		<titel>Ontvangst</titel>
+		<url>source/afbeeldingen/funerarium_en_aula/ontvangst.jpg</url>
+	</afbeelding>
+</afbeeldingen>
